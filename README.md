@@ -390,6 +390,7 @@ For public GitHub, X.com, decks, articles, or case studies:
 
 The suite is informed by public research and governance materials, including:
 
+- Stanford Digital Economy Lab Enterprise AI Playbook
 - Stanford HAI / AI Index
 - NIST AI Risk Management Framework
 - NIST Generative AI Profile

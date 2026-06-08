@@ -6,6 +6,8 @@ This public repository uses only public-safe research notes.
 
 ### Core AI transformation and adoption sources
 
+- Stanford Digital Economy Lab — The Enterprise AI Playbook: Lessons from 51 Successful Deployments: https://digitaleconomy.stanford.edu/publication/enterprise-ai-playbook/
+- Stanford Digital Economy Lab — Enterprise AI Playbook PDF: https://digitaleconomy.stanford.edu/app/uploads/2026/03/EnterpriseAIPlaybook_PereiraGraylinBrynjolfsson.pdf
 - Stanford HAI — The 2025 AI Index Report: https://hai.stanford.edu/ai-index/2025-ai-index-report
 - Stanford HAI — 2025 AI Index Report PDF: https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf
 - Stanford HAI — Official Chinese Version of the 2025 AI Index Report: https://hai.stanford.edu/assets/files/hai_ai_index_report_2025_chinese_version_061325.pdf

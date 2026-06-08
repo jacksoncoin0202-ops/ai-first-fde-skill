@@ -41,6 +41,11 @@ Stanford HAI's 2025 AI Index reports that AI business usage accelerated sharply:
 Source: Stanford HAI, *The 2025 AI Index Report*
 https://hai.stanford.edu/ai-index/2025-ai-index-report
 
+Stanford Digital Economy Lab's 2026 Enterprise AI Playbook analyzed 51 enterprise AI deployments that had moved beyond pilots and delivered measurable value. Its practical implication for this skill is direct: the agent should handle workflow redesign, process documentation, data access, sponsor behavior, resistance, security, and measurement before it treats model choice as the central question.
+
+Source: Stanford Digital Economy Lab, *The Enterprise AI Playbook: Lessons from 51 Successful Deployments*
+https://digitaleconomy.stanford.edu/publication/enterprise-ai-playbook/
+
 Microsoft and LinkedIn's 2024 Work Trend Index found that **75% of global knowledge workers use AI at work**, with many starting recently. The same report also states that **78% of AI users are bringing their own AI tools to work**, and that **60% of leaders worry their organization lacks a plan and vision to implement AI**.
 
 Source: Microsoft WorkLab, *AI at Work Is Here. Now Comes the Hard Part*
@@ -506,6 +511,13 @@ The repo should not claim:
 - URL: https://hai.stanford.edu/ai-index/2025-ai-index-report
 - Used for: AI adoption, investment, productivity, responsible AI, AI governance, public opinion, model capability and limitations.
 - Key relevance: shows broad AI adoption and the need for thoughtful development and governance.
+
+### Stanford Digital Economy Lab — The Enterprise AI Playbook
+
+- URL: https://digitaleconomy.stanford.edu/publication/enterprise-ai-playbook/
+- PDF: https://digitaleconomy.stanford.edu/app/uploads/2026/03/EnterpriseAIPlaybook_PereiraGraylinBrynjolfsson.pdf
+- Used for: enterprise deployment patterns, invisible implementation costs, sponsor behavior, resistance handling, human oversight, data access, security, and operational scale gates.
+- Key relevance: supports turning the skill into an operating guide focused on process, people, relationship handling, and measured pilots before tool recommendation.
 
 ### NIST — AI Risk Management Framework
 

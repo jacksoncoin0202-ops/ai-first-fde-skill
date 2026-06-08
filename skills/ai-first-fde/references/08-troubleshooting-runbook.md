@@ -18,6 +18,18 @@ Check prompt policy, retrieval evidence, model temperature, answer citation requ
 
 Check whether the tool increases workload, threatens status, lacks manager support, or creates responsibility risk.
 
+### Pilot stalls after a working demo
+
+Check sponsor activity, workflow ownership, process documentation, data access, legal/security approval, training, and KPI clarity.
+
+### ROI is unclear
+
+Check whether the pilot measured a real workflow KPI. If not, reset scope around time saved, error reduced, queue reduced, conversion improved, cost avoided, or support volume handled.
+
+### Security blocks the rollout
+
+Treat it as a design requirement. Add data classification, PII handling, permission filters, audit log, human approval, and rollback. Do not bypass governance.
+
 ## Required incident output
 
 - Symptom

@@ -12,6 +12,9 @@ Ask until the workflow becomes operationally visible.
 - Why does it matter now?
 - What failure is most expensive?
 - What would a good 90-day outcome look like?
+- Which pain is the strongest: time, cost, error, rework, risk, delay, lost sale, support burden, or employee frustration?
+- Who will say the pilot succeeded?
+- Who will say the pilot is not worth continuing?
 
 ### Workflow
 
@@ -21,6 +24,10 @@ Ask until the workflow becomes operationally visible.
 - Which step takes the longest?
 - Where do errors happen?
 - What output is produced?
+- Which step has no written SOP?
+- Which handoff creates waiting, rework, or blame?
+- Which workaround do users actually use outside the official process?
+- Which old template, spreadsheet, ticket, email, or chat thread proves the current process?
 
 ### Data
 
@@ -43,6 +50,14 @@ Ask until the workflow becomes operationally visible.
 - Who approves the output?
 - Who will maintain the AI system?
 - Who may resist and why?
+- Who is the executive sponsor?
+- Who removes blockers weekly?
+- Who is the workflow owner?
+- Who is the data owner?
+- Who is the respected reviewer users will trust?
+- Which staff function must be involved early: legal, compliance, security, procurement, HR, finance, or IT?
+- Which group fears replacement, blame, extra work, or loss of status?
+- Who has informal veto power even without a formal title?
 
 ### Risk
 
@@ -56,3 +71,33 @@ Ask until the workflow becomes operationally visible.
 - Current error or rework rate?
 - Current volume?
 - Target improvement?
+- Current queue size or backlog?
+- Current approval cycle time?
+- Current adoption or usage rate?
+- Current escalation rate?
+- Pilot success threshold?
+- Stop condition?
+
+## Pain map procedure
+
+1. Ask for the last three real cases.
+2. Reconstruct each case step by step.
+3. Mark time, rework, waiting, risk, and owner at each step.
+4. Identify where AI helps: draft, classify, search, summarize, compare, extract, route, monitor, or execute.
+5. Mark where AI must not act without human approval.
+6. Select the lowest-risk step with measurable pain.
+
+## Relationship map procedure
+
+Create a table before solution design:
+
+| Role | Person / team | What they care about | What they fear | What they can block | How to involve them |
+|---|---|---|---|---|---|
+| Executive sponsor | | KPI / roadmap / risk | failed ROI | budget / priority | weekly steering |
+| Workflow owner | | throughput / quality | disruption | process access | pilot owner |
+| Daily users | | workload / clarity | blame / replacement | adoption | private interviews |
+| Security / legal / compliance | | risk control | exposure / policy breach | approval | early design partner |
+| IT / data owner | | integration / maintenance | support load | access | scoped data path |
+| Senior reviewer | | quality / status | loss of expertise | trust | reviewer role |
+
+Do not write architecture until the relationship map has named blockers and handling actions.
