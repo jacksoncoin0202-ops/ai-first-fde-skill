@@ -17,4 +17,4 @@ It is not a generic AI strategy prompt. It helps an agent act like a front-line 
 
 Enterprise AI usually fails because the workflow was not understood, the data was not governed, permissions were not designed, and users never truly adopted it.
 
-Repo: {GITHUB_URL}
+Repo: https://github.com/jacksoncoin0202-ops/jackz-ai-fdt-skill

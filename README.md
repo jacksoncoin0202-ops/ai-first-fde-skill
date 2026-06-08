@@ -15,18 +15,18 @@ This is not a generic AI consulting prompt. It is an operating system for front-
 Install the main orchestration skill:
 
 ```bash
-hermes skills install jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt
+hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt
 ```
 
 Install the full suite manually by copying the `skills/*` folders into your Hermes skills directory, or install each module as needed:
 
 ```bash
-hermes skills install jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-research
-hermes skills install jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-diagnostic
-hermes skills install jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-architecture
-hermes skills install jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-deployment
-hermes skills install jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-troubleshooting
-hermes skills install jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-adoption-observer
+hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-research
+hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-diagnostic
+hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-architecture
+hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-deployment
+hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-troubleshooting
+hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-adoption-observer
 ```
 
 ## Skill modules

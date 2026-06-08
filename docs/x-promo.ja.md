@@ -18,4 +18,4 @@ Jackz.ai の企業 AI 導入プレイブックを、公開 Skill Suite として
 企業 AI 導入の失敗は、モデル性能だけが原因ではありません。
 多くの場合、業務理解、データ治理、権限設計、現場定着が不足しています。
 
-Repo: {GITHUB_URL}
+Repo: https://github.com/jacksoncoin0202-ops/jackz-ai-fdt-skill

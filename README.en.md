@@ -53,7 +53,7 @@ This skill suite is built for that reality.
 ## Installation
 
 ```bash
-hermes skills install jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt
+hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt
 ```
 
 ## Safety
