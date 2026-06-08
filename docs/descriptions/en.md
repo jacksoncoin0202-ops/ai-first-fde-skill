@@ -1,4 +1,4 @@
-# English Description｜AI FIRST FDT SKILL
+# English Description｜AI First FDE Skill
 
 Many companies want to become AI First, but they start with the wrong question.
 
@@ -12,7 +12,7 @@ Those questions matter, but they are not the starting point.
 
 The real starting point is the work itself: What does the company do every day? Who does the work? Where is the data? Who has permission? Which step needs human approval? If the AI makes a mistake, who can stop it?
 
-**AI FIRST FDT SKILL** is a practical field-deployment operating mode for AI agents.
+**AI First FDE Skill** is a practical Forward Deployed Engineer (FDE) operating mode for AI agents.
 
 It is not a generic prompt and not a vague AI consulting template. It teaches the agent to understand the real workflow before recommending tools or architecture.
 
@@ -55,4 +55,4 @@ If those issues are ignored, the AI project often stays as a demo and never beco
 
 ## One-line positioning
 
-A skill suite that turns an AI agent into a front-line AI deployment technician: diagnose first, design second, pilot safely, deploy carefully, and verify adoption.
+A skill suite that turns an AI agent into a Forward Deployed Engineer (FDE): diagnose first, design second, pilot safely, deploy carefully, and verify adoption.

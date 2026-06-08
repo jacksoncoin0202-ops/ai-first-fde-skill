@@ -1,8 +1,8 @@
-# AI FIRST FDT SKILL
+# AI First FDE Skill
 
 **Jackz.ai** が作成した公開 Agent-runtime-neutral Skill Suite です。東アジアの企業文化を持つ組織における AI 導入、技術設計、現場展開、トラブルシューティング、利用定着を支援するために設計されています。
 
-これは一般的な AI コンサルティング用プロンプトではありません。AI エージェントを、現場で動ける AI FIRST Field Deployment Technician として運用するためのスキル群です。
+これは一般的な AI コンサルティング用プロンプトではありません。AI エージェントを、現場で動ける AI First Forward Deployed Engineer（FDE）として運用するためのスキル群です。
 
 ## 目的
 
@@ -20,13 +20,13 @@
 
 ## モジュール
 
-- `ai-first-fdt`: メイン統合 Skill
-- `ai-first-fdt-research`: 調査と情報源確認
-- `ai-first-fdt-diagnostic`: 顧客ヒアリングと深掘り診断
-- `ai-first-fdt-architecture`: AI 技術アーキテクチャ設計
-- `ai-first-fdt-deployment`: PoC、Pilot、本番展開、運用
-- `ai-first-fdt-troubleshooting`: 現場トラブル対応
-- `ai-first-fdt-adoption-observer`: 利用者反応と導入抵抗の観察
+- `ai-first-fde`: メイン統合 Skill
+- `ai-first-fde-research`: 調査と情報源確認
+- `ai-first-fde-diagnostic`: 顧客ヒアリングと深掘り診断
+- `ai-first-fde-architecture`: AI 技術アーキテクチャ設計
+- `ai-first-fde-deployment`: PoC、Pilot、本番展開、運用
+- `ai-first-fde-troubleshooting`: 現場トラブル対応
+- `ai-first-fde-adoption-observer`: 利用者反応と導入抵抗の観察
 
 ## Agent / CLI での利用
 

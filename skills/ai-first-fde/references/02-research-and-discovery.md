@@ -13,7 +13,7 @@ Before designing a solution, gather enough evidence to understand the business, 
 
 ## Agent runtime and download research
 
-When researching how a user can run AI FIRST FDT on the market's agent tools, do not stop at Hermes. Check the broader agent/runtime landscape, including:
+When researching how a user can run AI First FDE on the market's agent tools, do not stop at Hermes. Check the broader agent/runtime landscape, including:
 
 - Claude Code
 - OpenAI Codex CLI

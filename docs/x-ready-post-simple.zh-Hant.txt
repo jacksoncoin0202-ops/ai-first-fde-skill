@@ -36,7 +36,7 @@ AI 架構轉型又要從哪裡開始？
 
 但一回到真實工作流程，大家還是用 Excel、LINE、Email、Google Drive，然後 AI 被放在旁邊吃灰。
 
-所以我做了一套 AI FIRST FDT SKILL。
+所以我做了一套 AI First FDE Skill。
 
 你可以把它理解成：
 
@@ -90,4 +90,4 @@ AI 架構轉型又要從哪裡開始？
 可以先從這個 Skill 開始看。
 
 GitHub：
-https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill
+https://github.com/jacksoncoin0202-ops/ai-first-fde-skill

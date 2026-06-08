@@ -23,7 +23,7 @@ AI 導入最常見的失敗，不是模型不夠強。
 
 你要處理的是層級、共識、面子、風險迴避、資深員工的默會知識、非正式權力中心，以及「沒有人想第一個承認流程其實有問題」這件事。
 
-所以我做了一套 AI FIRST FDT SKILL。
+所以我做了一套 AI First FDE Skill。
 
 它不是普通 prompt。
 
@@ -36,7 +36,7 @@ AI 導入最常見的失敗，不是模型不夠強。
 
 我想做的不是「叫 AI 給企業一些建議」。
 
-而是讓 agent 在被觸發時，自動進入 FDT 模式：
+而是讓 agent 在被觸發時，自動進入 FDE 模式：
 
 不亂推薦工具。
 不跳過現場問診。
@@ -52,17 +52,17 @@ workflow、owner、data source、permission、failure mode、human approval、ro
 
 這套 Skill Suite 目前包含：
 
-- ai-first-fdt：主控 FDT operating mode
-- ai-first-fdt-research：source-grounded discovery
-- ai-first-fdt-diagnostic：深度問診
-- ai-first-fdt-architecture：技術方案架構
-- ai-first-fdt-deployment：PoC / pilot / rollout
-- ai-first-fdt-troubleshooting：現場排障
-- ai-first-fdt-adoption-observer：東亞企業採用阻力觀察
+- ai-first-fde：主控 FDE operating mode
+- ai-first-fde-research：source-grounded discovery
+- ai-first-fde-diagnostic：深度問診
+- ai-first-fde-architecture：技術方案架構
+- ai-first-fde-deployment：PoC / pilot / rollout
+- ai-first-fde-troubleshooting：現場排障
+- ai-first-fde-adoption-observer：東亞企業採用阻力觀察
 
 開源了。
 
 如果你正在做 AI consulting、enterprise AI、agent workflow、Hermes / Claude Skills，或者正在把 AI 帶進真實公司流程，可以直接拿去改。
 
 GitHub repo：
-https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill
+https://github.com/jacksoncoin0202-ops/ai-first-fde-skill

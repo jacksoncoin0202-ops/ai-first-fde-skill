@@ -1,9 +1,9 @@
-# AI FIRST FDT SKILL — Research Grounding Report
+# AI First FDE Skill — Research Grounding Report
 
-**Version:** 0.1  
-**Maintainer:** Jackz.ai  
-**Scope:** Public research grounding for the AI FIRST FDT SKILL  
-**Audience:** enterprise AI consultants, internal AI champions, system integrators, AI product teams, and agent workflow builders  
+**Version:** 0.1
+**Maintainer:** Jackz.ai
+**Scope:** Public research grounding for the AI First FDE Skill
+**Audience:** enterprise AI consultants, internal AI champions, system integrators, AI product teams, and agent workflow builders
 **Public-safety note:** This document only cites public sources. It does not include customer names, private deployment files, credentials, internal URLs, or confidential architecture.
 
 ---
@@ -24,11 +24,11 @@ A company becomes AI First when AI is safely embedded into real work:
 - adoption is observed after launch;
 - value is measured at workflow level, not only demo level.
 
-The AI FIRST FDT SKILL exists because enterprise AI adoption is now broad, but enterprise AI transformation is still uneven. Public research consistently points in the same direction: AI usage is rising quickly, but many organizations are still stuck in pilots, informal employee usage, unclear governance, weak training, and incomplete workflow redesign.
+The AI First FDE Skill exists because enterprise AI adoption is now broad, but enterprise AI transformation is still uneven. Public research consistently points in the same direction: AI usage is rising quickly, but many organizations are still stuck in pilots, informal employee usage, unclear governance, weak training, and incomplete workflow redesign.
 
 The gap is not only technical. It is operational.
 
-The skill is therefore framed as a **Field Deployment Technician** operating mode: before the agent recommends tools, it diagnoses the workflow; before it writes architecture, it maps data and permission; before it claims transformation, it defines the pilot, adoption plan, validation method, and operational handoff.
+The skill is therefore framed as a **Forward Deployed Engineer** operating mode: before the agent recommends tools, it diagnoses the workflow; before it writes architecture, it maps data and permission; before it claims transformation, it defines the pilot, adoption plan, validation method, and operational handoff.
 
 ---
 
@@ -38,17 +38,17 @@ The skill is therefore framed as a **Field Deployment Technician** operating mod
 
 Stanford HAI's 2025 AI Index reports that AI business usage accelerated sharply: **78% of organizations reported using AI in 2024, up from 55% the year before**. Stanford also highlights that AI is increasingly embedded in everyday life, that private AI investment remains high, and that AI performance continues to improve across demanding benchmarks.
 
-Source: Stanford HAI, *The 2025 AI Index Report*  
+Source: Stanford HAI, *The 2025 AI Index Report*
 https://hai.stanford.edu/ai-index/2025-ai-index-report
 
 Microsoft and LinkedIn's 2024 Work Trend Index found that **75% of global knowledge workers use AI at work**, with many starting recently. The same report also states that **78% of AI users are bringing their own AI tools to work**, and that **60% of leaders worry their organization lacks a plan and vision to implement AI**.
 
-Source: Microsoft WorkLab, *AI at Work Is Here. Now Comes the Hard Part*  
+Source: Microsoft WorkLab, *AI at Work Is Here. Now Comes the Hard Part*
 https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part
 
 McKinsey's State of AI research similarly shows that AI use is widespread, but scaling is not yet mature. Its 2025 survey reports that **88% of respondents say their organizations are regularly using AI in at least one business function**, but most are still in experimentation or piloting phases rather than scaled enterprise transformation.
 
-Source: McKinsey, *The state of AI in 2025: Agents, innovation, and transformation*  
+Source: McKinsey, *The state of AI in 2025: Agents, innovation, and transformation*
 https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
 
 The combined implication is straightforward: AI is already inside work, whether the company has a clear plan or not. If leadership does not create a safe operating model, employees will still use AI through unofficial tools, creating data exposure, inconsistent quality, and invisible dependency.
@@ -65,7 +65,7 @@ This is exactly the gap that a field-deployment skill should address.
 
 A generic prompt asks, "What AI solution should we build?"
 
-AI FIRST FDT asks:
+AI First FDE asks:
 
 1. What work happens every day?
 2. Who performs it?
@@ -107,7 +107,7 @@ The U.S. National Institute of Standards and Technology developed the AI Risk Ma
 
 NIST also publishes a Generative AI Profile to help organizations identify unique risks posed by generative AI and align risk management actions with their goals.
 
-Source: NIST, *AI Risk Management Framework*  
+Source: NIST, *AI Risk Management Framework*
 https://doi.org/10.6028/NIST.AI.100-1
 
 Deployment implication:
@@ -124,13 +124,13 @@ The skill should force every technical plan to include:
 - rollback;
 - ownership after deployment.
 
-This is why AI FIRST FDT does not stop at "architecture." It requires a deployment runbook, troubleshooting plan, validation checklist, adoption risk register, and operations handoff.
+This is why AI First FDE does not stop at "architecture." It requires a deployment runbook, troubleshooting plan, validation checklist, adoption risk register, and operations handoff.
 
 ### 3.3 OECD AI Principles: trustworthy AI requires human-centered values and accountability
 
 The OECD AI Principles promote AI that is innovative and trustworthy, and that respects human rights and democratic values. The principles include inclusive growth, human rights, transparency, robustness, security, safety, and accountability. They were initially adopted in 2019 and updated in 2024.
 
-Source: OECD.AI, *OECD AI Principles overview*  
+Source: OECD.AI, *OECD AI Principles overview*
 https://oecd.ai/en/ai-principles
 
 Deployment implication:
@@ -162,7 +162,7 @@ Deployment implication:
 
 A company cannot simply tell employees to "use AI more." Without governance, training, and approved workflows, employee usage becomes invisible. Invisible usage creates a blind spot: the company cannot improve it, secure it, or measure it.
 
-AI FIRST FDT therefore treats adoption as a measurable field problem:
+AI First FDE therefore treats adoption as a measurable field problem:
 
 - Who is using the tool?
 - Which workflow did it replace?
@@ -183,14 +183,14 @@ McKinsey's 2025 State of AI research states that almost all respondents say thei
 - AI high performers are much more likely to redesign workflows and to scale agentic systems.
 - Human validation of model outputs is one of the management practices associated with high performance.
 
-Source: McKinsey, *The state of AI in 2025: Agents, innovation, and transformation*  
+Source: McKinsey, *The state of AI in 2025: Agents, innovation, and transformation*
 https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
 
 Deployment implication:
 
 The difference between a demo and transformation is not the demo itself. It is whether the organization redesigns the workflow and creates a repeatable operating model.
 
-This directly supports the structure of AI FIRST FDT:
+This directly supports the structure of AI First FDE:
 
 1. research grounding;
 2. diagnostic interview;
@@ -207,7 +207,7 @@ This directly supports the structure of AI FIRST FDT:
 
 Japan's Ministry of Economy, Trade and Industry (METI) and Ministry of Internal Affairs and Communications (MIC) released the AI Business Guidelines Version 1.0 in April 2024. The release consolidated and updated existing Japanese AI development, utilization, and governance guidelines in response to rapid technology changes including generative AI.
 
-Source: METI, *AI Business Guidelines Version 1.0 release*  
+Source: METI, *AI Business Guidelines Version 1.0 release*
 https://www.meti.go.jp/press/2024/04/20240419004/20240419004.html
 
 Deployment implication:
@@ -216,7 +216,7 @@ For Japan and East Asian enterprise contexts, AI adoption must be framed as gove
 
 ---
 
-## 4. Why AI FIRST FDT focuses on East Asian enterprise deployment
+## 4. Why AI First FDE focuses on East Asian enterprise deployment
 
 Enterprise AI adoption is shaped by organizational culture. In many East Asian organizations, the formal org chart is only part of the system.
 
@@ -247,9 +247,9 @@ That is why the skill includes an adoption observer module, not only architectur
 
 ---
 
-## 5. What AI FIRST FDT is not
+## 5. What AI First FDE is not
 
-AI FIRST FDT is not:
+AI First FDE is not:
 
 - a prompt collection for writing AI strategy posts;
 - a chatbot prompt;
@@ -264,7 +264,7 @@ The skill is designed to make the agent slower at the right moment: before it re
 
 ---
 
-## 6. The AI FIRST FDT operating model
+## 6. The AI First FDE operating model
 
 The skill turns an agent into a field operator with six modes.
 
@@ -460,7 +460,7 @@ A single prompt cannot handle enterprise AI deployment well because the work nat
 - adoption observation;
 - public-safe communication.
 
-AI FIRST FDT is therefore a suite, not a single thin instruction file.
+AI First FDE is therefore a suite, not a single thin instruction file.
 
 The main skill routes the task. The modules force the agent to adopt the right posture for the current stage.
 
@@ -541,7 +541,7 @@ The repo should not claim:
 
 ## 11. Final positioning
 
-AI FIRST FDT SKILL is built around one belief:
+AI First FDE Skill is built around one belief:
 
 > AI transformation is not a model choice. It is a field deployment problem.
 
@@ -549,4 +549,4 @@ A good AI agent should not only answer questions. It should help a company safel
 
 That requires research, diagnosis, workflow mapping, architecture, pilot design, governance, troubleshooting, adoption observation, and public-safe communication.
 
-That is the job of AI FIRST FDT SKILL.
+That is the job of AI First FDE Skill.

@@ -1,6 +1,6 @@
 # East Asian Enterprise Culture Notes
 
-This module helps the FDT avoid blindly applying Western SaaS adoption assumptions.
+This module helps the FDE avoid blindly applying Western SaaS adoption assumptions.
 
 ## Recurring patterns
 

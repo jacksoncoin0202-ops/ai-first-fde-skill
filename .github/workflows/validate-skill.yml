@@ -10,4 +10,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python skills/ai-first-fdt/scripts/validate_skill.py .
+      - run: python skills/ai-first-fde/scripts/validate_skill.py .

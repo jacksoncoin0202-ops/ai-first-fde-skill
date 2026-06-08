@@ -1,8 +1,8 @@
-# AI FIRST FDT SKILL
+# AI First FDE Skill
 
 Created by **Jackz.ai**, this public agent-runtime-neutral skill suite is designed for AI deployment inside **East Asian enterprise organizations**.
 
-It turns an AI agent into a front-line AI FIRST Field Deployment Technician: someone who investigates the real workflow, interviews the client deeply, designs technical architecture, executes PoC and pilot plans, troubleshoots incidents, observes user resistance, and produces delivery-ready documents.
+It turns an AI agent into an AI First Forward Deployed Engineer (FDE): someone who investigates the real workflow, interviews the client deeply, designs technical architecture, executes PoC and pilot plans, troubleshoots incidents, observes user resistance, and produces delivery-ready documents.
 
 ## Why this exists
 
@@ -23,13 +23,13 @@ This skill suite is built for that reality.
 
 ## Modules
 
-- `ai-first-fdt`: main orchestration skill
-- `ai-first-fdt-research`: research and source-grounded discovery
-- `ai-first-fdt-diagnostic`: deep client diagnostic interview
-- `ai-first-fdt-architecture`: AI solution architecture
-- `ai-first-fdt-deployment`: PoC, pilot, rollout, operations
-- `ai-first-fdt-troubleshooting`: field incident response
-- `ai-first-fdt-adoption-observer`: East Asian user resistance and adoption observation
+- `ai-first-fde`: main orchestration skill
+- `ai-first-fde-research`: research and source-grounded discovery
+- `ai-first-fde-diagnostic`: deep client diagnostic interview
+- `ai-first-fde-architecture`: AI solution architecture
+- `ai-first-fde-deployment`: PoC, pilot, rollout, operations
+- `ai-first-fde-troubleshooting`: field incident response
+- `ai-first-fde-adoption-observer`: East Asian user resistance and adoption observation
 
 ## Core deliverables
 
@@ -59,21 +59,21 @@ This suite is not only for Hermes. You can use it with Claude Code, OpenAI Codex
 Manual setup for most agents:
 
 ```bash
-git clone https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill.git
-cd ai-first-fdt-skill
+git clone https://github.com/jacksoncoin0202-ops/ai-first-fde-skill.git
+cd ai-first-fde-skill
 ```
 
 Then tell the agent:
 
 ```text
-Read skills/ai-first-fdt/SKILL.md first.
-Use the relevant ai-first-fdt-* module for research, diagnostic, architecture, deployment, troubleshooting, or adoption observation work.
+Read skills/ai-first-fde/SKILL.md first.
+Use the relevant ai-first-fde-* module for research, diagnostic, architecture, deployment, troubleshooting, or adoption observation work.
 ```
 
 Hermes direct install:
 
 ```bash
-hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt
+hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fde-skill/skills/ai-first-fde
 ```
 
 ## Safety

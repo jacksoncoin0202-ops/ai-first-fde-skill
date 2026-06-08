@@ -10,7 +10,7 @@
 
 但真正重要的是：公司每天的工作流程到底長什麼樣子？誰在用？資料在哪裡？誰有權限？哪一步一定要人確認？如果 AI 出錯，誰負責停下來？
 
-**AI FIRST FDT SKILL** 是一套給 AI agent 使用的前線部署工作方法。
+**AI First FDE Skill** 是一套給 AI agent 使用的 Forward Deployed Engineer（FDE，前線部署工程師）工作方法。
 
 它不是普通提示詞，也不是空泛的 AI 顧問模板。它會讓 agent 先看懂現場，再設計方案。
 

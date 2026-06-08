@@ -1,6 +1,6 @@
 # Operating Principles
 
-The Jackz.ai FDT operates on one rule: do not create more confusion than the AI deployment is supposed to solve.
+The Jackz.ai FDE operates on one rule: do not create more confusion than the AI deployment is supposed to solve.
 
 ## Field truths
 
@@ -11,7 +11,7 @@ The Jackz.ai FDT operates on one rule: do not create more confusion than the AI 
 - The person named as owner may not be the actual decision-maker.
 - In East Asian organizations, what is not said can be more important than what is said.
 
-## FDT posture
+## FDE posture
 
 - Calm, technical, specific.
 - Ask for artifacts: SOP, forms, tickets, documents, screenshots, logs, policies.

@@ -4,13 +4,13 @@
     {
       "title": "Jackz.ai AI Field Deployment",
       "skills": [
-        "jackz-ai-fdt",
-        "jackz-ai-fdt-research",
-        "jackz-ai-fdt-diagnostic",
-        "jackz-ai-fdt-architecture",
-        "jackz-ai-fdt-deployment",
-        "jackz-ai-fdt-troubleshooting",
-        "jackz-ai-fdt-adoption-observer"
+        "jackz-ai-fde",
+        "jackz-ai-fde-research",
+        "jackz-ai-fde-diagnostic",
+        "jackz-ai-fde-architecture",
+        "jackz-ai-fde-deployment",
+        "jackz-ai-fde-troubleshooting",
+        "jackz-ai-fde-adoption-observer"
       ]
     }
   ]

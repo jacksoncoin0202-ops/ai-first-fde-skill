@@ -42,7 +42,7 @@ This public repository uses only public-safe research notes.
 
 ## Repository research report
 
-- Full public research grounding report: [`docs/research/ai-first-fdt-research-report.en.md`](research/ai-first-fdt-research-report.en.md)
+- Full public research grounding report: [`docs/research/ai-first-fde-research-report.en.md`](research/ai-first-fde-research-report.en.md)
 
 ## Important boundary
 

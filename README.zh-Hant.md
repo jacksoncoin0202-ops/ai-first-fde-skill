@@ -1,10 +1,10 @@
-# AI FIRST FDT SKILL
+# AI First FDE Skill
 
 這是 **Jackz.ai** 創造的公開 Agent-runtime-neutral Skill Suite，專門針對**東亞文化脈絡下的公司組織**進行 AI 導入、技術落地與現場排障。
 
 它不是一般 AI 顧問提示詞，也不是單純寫方案的模板。它的定位是：
 
-> 讓 Agent 變成一位 AI FIRST Field Deployment Technician，進入企業現場後，能夠問到底、查清楚、設計方案、執行落地、排查問題、觀察使用者反應，最後交付可驗收、可維運、可公開安全改寫的成果。
+> 讓 Agent 變成一位 AI First Forward Deployed Engineer（FDE，前線部署工程師），進入企業現場後，能夠問到底、查清楚、設計方案、執行落地、排查問題、觀察使用者反應，最後交付可驗收、可維運、可公開安全改寫的成果。
 
 ## 為什麼 Jackz.ai 要做這個 Skill？
 
@@ -56,13 +56,13 @@
 
 這是一個 Skill Suite，不是單一薄文件。
 
-- `ai-first-fdt`：主控 Skill，負責判斷任務、選擇模組、整合交付。
-- `ai-first-fdt-research`：查詢研究與來源驗證。
-- `ai-first-fdt-diagnostic`：客戶深度盤問，打破沙盆問到底。
-- `ai-first-fdt-architecture`：AI 技術方案與系統架構。
-- `ai-first-fdt-deployment`：PoC、Pilot、Rollout、Operations。
-- `ai-first-fdt-troubleshooting`：現場疑難排解。
-- `ai-first-fdt-adoption-observer`：使用者反應與東亞企業導入阻力觀察。
+- `ai-first-fde`：主控 Skill，負責判斷任務、選擇模組、整合交付。
+- `ai-first-fde-research`：查詢研究與來源驗證。
+- `ai-first-fde-diagnostic`：客戶深度盤問，打破沙盆問到底。
+- `ai-first-fde-architecture`：AI 技術方案與系統架構。
+- `ai-first-fde-deployment`：PoC、Pilot、Rollout、Operations。
+- `ai-first-fde-troubleshooting`：現場疑難排解。
+- `ai-first-fde-adoption-observer`：使用者反應與東亞企業導入阻力觀察。
 
 ## 基本使用方式
 
@@ -73,39 +73,39 @@
 大部分 agent 的通用用法：
 
 ```bash
-git clone https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill.git
-cd ai-first-fdt-skill
+git clone https://github.com/jacksoncoin0202-ops/ai-first-fde-skill.git
+cd ai-first-fde-skill
 ```
 
 然後對 Agent 說：
 
 ```text
-請先讀 skills/ai-first-fdt/SKILL.md。
+請先讀 skills/ai-first-fde/SKILL.md。
 如果任務需要研究、診斷、架構、部署、排障或 adoption observation，
-請再讀對應的 skills/ai-first-fdt-* 模組。
+請再讀對應的 skills/ai-first-fde-* 模組。
 ```
 
 對 Agent 說：
 
 ```text
-使用 Jackz.ai FDT 模式，幫我為一家 200 人技術服務公司設計 AI First 導入方案。
+使用 Jackz.ai FDE 模式，幫我為一家 200 人技術服務公司設計 AI First 導入方案。
 ```
 
 或：
 
 ```text
-使用 FDT diagnostic，幫我盤問這個客戶的 AI 導入需求，不要直接寫方案。
+使用 FDE diagnostic，幫我盤問這個客戶的 AI 導入需求，不要直接寫方案。
 ```
 
 或：
 
 ```text
-我們的內部知識庫 AI 回答不準，而且員工不願意用。請用 FDT troubleshooting 和 adoption observer 幫我診斷。
+我們的內部知識庫 AI 回答不準，而且員工不願意用。請用 FDE troubleshooting 和 adoption observer 幫我診斷。
 ```
 
 ## 標準輸出
 
-完成一次 FDT 任務後，理想交付包包含：
+完成一次 FDE 任務後，理想交付包包含：
 
 - Engagement Brief
 - Client Discovery Report

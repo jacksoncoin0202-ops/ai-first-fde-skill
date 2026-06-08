@@ -1,4 +1,4 @@
-# 日本語説明｜AI FIRST FDT SKILL
+# 日本語説明｜AI First FDE Skill
 
 多くの企業が「AI First」を目指しています。ですが、最初の問いを間違えることがよくあります。
 
@@ -12,7 +12,7 @@
 
 本当に見るべきなのは、会社の日々の仕事です。誰がその仕事をしているのか。データはどこにあるのか。誰が見てもよいのか。どの手順は人間の確認が必要なのか。AI が間違えた時、誰が止めるのか。
 
-**AI FIRST FDT SKILL** は、AI agent を現場導入担当者として動かすための実践的な Skill Suite です。
+**AI First FDE Skill** は、AI agent を Forward Deployed Engineer（FDE）として動かすための実践的な Skill Suite です。
 
 これは普通のプロンプトではありません。抽象的な AI コンサル資料でもありません。agent に、まず現場の業務を理解させてから、技術設計と導入計画を作らせるためのものです。
 
@@ -54,4 +54,4 @@
 
 ## 一言でいうと
 
-AI agent を「現場で動ける AI 導入担当者」に変える Skill Suite です。先に診断し、次に設計し、小さく試し、安全に展開し、最後に定着を確認します。
+AI agent を「現場で動ける Forward Deployed Engineer（FDE）」に変える Skill Suite です。先に診断し、次に設計し、小さく試し、安全に展開し、最後に定着を確認します。
