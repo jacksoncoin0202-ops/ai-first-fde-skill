@@ -4,7 +4,7 @@
 
 我把 Jackz.ai 內部用來做企業 AI 落地的方法，整理成一套公開 Skill：
 
-**AI Field Deployment Technician**
+**AI FIRST Field Deployment Technician**
 
 它不是拿來寫空泛 AI 策略，而是讓 Agent 真的像前線部署工程師一樣工作：
 
@@ -18,7 +18,7 @@
 企業 AI 失敗，通常不是模型不夠強。
 而是流程沒拆、資料沒管、權限沒設、現場沒人真的用。
 
-Repo：https://github.com/jacksoncoin0202-ops/jackz-ai-fdt-skill
+Repo：https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill
 
 ## 版本 B
 
@@ -37,4 +37,4 @@ AI 導入不是買工具。
 
 我把這套方法做成 Jackz.ai 的公開 Hermes Skill Suite，專門給東亞企業 AI 落地使用。
 
-Repo：https://github.com/jacksoncoin0202-ops/jackz-ai-fdt-skill
+Repo：https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill

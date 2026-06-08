@@ -1,5 +1,5 @@
 ---
-name: jackz-ai-fdt-deployment
+name: ai-first-fdt-deployment
 description: Use this skill when the user needs practical AI deployment execution: PoC, pilot, rollout, training, validation, KPI tracking, operations handoff, and enterprise adoption timeline.
 version: 0.1.0
 author: Jackz.ai

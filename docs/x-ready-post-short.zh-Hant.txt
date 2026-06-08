@@ -4,4 +4,4 @@
 
 Jackz.ai FDT Skill Suite，專為東亞企業導入 AI 而設。
 
-https://github.com/jacksoncoin0202-ops/jackz-ai-fdt-skill
+https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill

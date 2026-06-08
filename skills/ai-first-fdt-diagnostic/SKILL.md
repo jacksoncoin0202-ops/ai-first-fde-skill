@@ -1,5 +1,5 @@
 ---
-name: jackz-ai-fdt-diagnostic
+name: ai-first-fdt-diagnostic
 description: Use this skill when the user needs a deep client diagnostic interview for AI deployment. Trigger when the client request is vague, when onboarding a new company or workflow, or when the user wants to "ask to the bottom" before designing an AI solution.
 version: 0.1.0
 author: Jackz.ai

@@ -1,5 +1,5 @@
 ---
-name: jackz-ai-fdt-architecture
+name: ai-first-fdt-architecture
 description: Use this skill when the user needs technical AI solution architecture for enterprise deployment: RAG, agent workflows, Company Brain, permission-aware retrieval, tool integration, audit logging, human approval, evaluation, and rollback.
 version: 0.1.0
 author: Jackz.ai

@@ -1,5 +1,5 @@
 ---
-name: jackz-ai-fdt-research
+name: ai-first-fdt-research
 description: Use this skill when the user needs source-grounded research for Jackz.ai AI field deployment: industry background, enterprise AI readiness, Stanford HAI / AI Index style evidence, benchmark cases, public-safe claims, and research briefs for East Asian enterprise AI adoption.
 version: 0.1.0
 author: Jackz.ai

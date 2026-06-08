@@ -1,10 +1,10 @@
-# Jackz.ai AI Field Deployment Technician Skill Suite
+# AI FIRST FDT SKILL
 
 這是 **Jackz.ai** 創造的公開 Hermes / Claude-style Skill Suite，專門針對**東亞文化脈絡下的公司組織**進行 AI 導入、技術落地與現場排障。
 
 它不是一般 AI 顧問提示詞，也不是單純寫方案的模板。它的定位是：
 
-> 讓 Agent 變成一位 AI Field Deployment Technician，進入企業現場後，能夠問到底、查清楚、設計方案、執行落地、排查問題、觀察使用者反應，最後交付可驗收、可維運、可公開安全改寫的成果。
+> 讓 Agent 變成一位 AI FIRST Field Deployment Technician，進入企業現場後，能夠問到底、查清楚、設計方案、執行落地、排查問題、觀察使用者反應，最後交付可驗收、可維運、可公開安全改寫的成果。
 
 ## 為什麼 Jackz.ai 要做這個 Skill？
 
@@ -56,13 +56,13 @@
 
 這是一個 Skill Suite，不是單一薄文件。
 
-- `jackz-ai-fdt`：主控 Skill，負責判斷任務、選擇模組、整合交付。
-- `jackz-ai-fdt-research`：查詢研究與來源驗證。
-- `jackz-ai-fdt-diagnostic`：客戶深度盤問，打破沙盆問到底。
-- `jackz-ai-fdt-architecture`：AI 技術方案與系統架構。
-- `jackz-ai-fdt-deployment`：PoC、Pilot、Rollout、Operations。
-- `jackz-ai-fdt-troubleshooting`：現場疑難排解。
-- `jackz-ai-fdt-adoption-observer`：使用者反應與東亞企業導入阻力觀察。
+- `ai-first-fdt`：主控 Skill，負責判斷任務、選擇模組、整合交付。
+- `ai-first-fdt-research`：查詢研究與來源驗證。
+- `ai-first-fdt-diagnostic`：客戶深度盤問，打破沙盆問到底。
+- `ai-first-fdt-architecture`：AI 技術方案與系統架構。
+- `ai-first-fdt-deployment`：PoC、Pilot、Rollout、Operations。
+- `ai-first-fdt-troubleshooting`：現場疑難排解。
+- `ai-first-fdt-adoption-observer`：使用者反應與東亞企業導入阻力觀察。
 
 ## 基本使用方式
 

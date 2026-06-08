@@ -1,5 +1,5 @@
 ---
-name: jackz-ai-fdt-troubleshooting
+name: ai-first-fdt-troubleshooting
 description: Use this skill when an AI deployment has a field problem: bad answers, RAG misses, permission leaks, integration failures, latency, cost spikes, user complaints, adoption failure, or production incident.
 version: 0.1.0
 author: Jackz.ai

@@ -1,5 +1,5 @@
 ---
-name: jackz-ai-fdt-adoption-observer
+name: ai-first-fdt-adoption-observer
 description: Use this skill when the user needs to observe user reaction, resistance, stakeholder politics, cultural blockers, or adoption failure in East Asian enterprise AI rollout.
 version: 0.1.0
 author: Jackz.ai

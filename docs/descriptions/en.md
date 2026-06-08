@@ -1,4 +1,4 @@
-# English Description｜Jackz.ai AI Field Deployment Technician Skill Suite
+# English Description｜AI FIRST FDT SKILL
 
 Many companies want to become AI First, but they start with the wrong question.
 
@@ -12,7 +12,7 @@ Those questions matter, but they are not the starting point.
 
 The real starting point is the work itself: What does the company do every day? Who does the work? Where is the data? Who has permission? Which step needs human approval? If the AI makes a mistake, who can stop it?
 
-**Jackz.ai AI Field Deployment Technician Skill Suite** is a practical field-deployment operating mode for AI agents.
+**AI FIRST FDT SKILL** is a practical field-deployment operating mode for AI agents.
 
 It is not a generic prompt and not a vague AI consulting template. It teaches the agent to understand the real workflow before recommending tools or architecture.
 

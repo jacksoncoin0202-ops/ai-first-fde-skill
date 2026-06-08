@@ -4,7 +4,7 @@
 
 Jackz.ai の企業 AI 導入プレイブックを、公開 Skill Suite として整理しました。
 
-**AI Field Deployment Technician**
+**AI FIRST Field Deployment Technician**
 
 単なる AI 戦略プロンプトではありません。Agent を現場展開担当者として動かすための Skill です。
 
@@ -18,4 +18,4 @@ Jackz.ai の企業 AI 導入プレイブックを、公開 Skill Suite として
 企業 AI 導入の失敗は、モデル性能だけが原因ではありません。
 多くの場合、業務理解、データ治理、権限設計、現場定着が不足しています。
 
-Repo: https://github.com/jacksoncoin0202-ops/jackz-ai-fdt-skill
+Repo: https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill

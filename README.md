@@ -1,4 +1,4 @@
-# Jackz.ai AI Field Deployment Technician Skill Suite
+# AI FIRST FDT SKILL
 
 A public Hermes / Claude-style skill suite created by **Jackz.ai** for deploying AI inside **East Asian enterprise organizations**.
 
@@ -23,29 +23,29 @@ Short public descriptions for sharing on GitHub / X / docs:
 Install the main orchestration skill:
 
 ```bash
-hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt
+hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt
 ```
 
 Install the full suite manually by copying the `skills/*` folders into your Hermes skills directory, or install each module as needed:
 
 ```bash
-hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-research
-hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-diagnostic
-hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-architecture
-hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-deployment
-hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-troubleshooting
-hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt-adoption-observer
+hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt-research
+hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt-diagnostic
+hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt-architecture
+hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt-deployment
+hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt-troubleshooting
+hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt-adoption-observer
 ```
 
 ## Skill modules
 
-- `jackz-ai-fdt`: main orchestrator skill
-- `jackz-ai-fdt-research`: research and source-grounded discovery
-- `jackz-ai-fdt-diagnostic`: client deep diagnostic interview protocol
-- `jackz-ai-fdt-architecture`: technical AI solution architecture
-- `jackz-ai-fdt-deployment`: PoC, pilot, rollout, operations execution
-- `jackz-ai-fdt-troubleshooting`: incident response and field debugging
-- `jackz-ai-fdt-adoption-observer`: East Asian adoption resistance observation
+- `ai-first-fdt`: main orchestrator skill
+- `ai-first-fdt-research`: research and source-grounded discovery
+- `ai-first-fdt-diagnostic`: client deep diagnostic interview protocol
+- `ai-first-fdt-architecture`: technical AI solution architecture
+- `ai-first-fdt-deployment`: PoC, pilot, rollout, operations execution
+- `ai-first-fdt-troubleshooting`: incident response and field debugging
+- `ai-first-fdt-adoption-observer`: East Asian adoption resistance observation
 
 ## Public safety
 

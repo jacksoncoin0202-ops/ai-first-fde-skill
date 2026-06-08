@@ -1,8 +1,8 @@
-# Jackz.ai AI Field Deployment Technician Skill Suite
+# AI FIRST FDT SKILL
 
 **Jackz.ai** が作成した公開 Hermes / Claude-style Skill Suite です。東アジアの企業文化を持つ組織における AI 導入、技術設計、現場展開、トラブルシューティング、利用定着を支援するために設計されています。
 
-これは一般的な AI コンサルティング用プロンプトではありません。AI エージェントを、現場で動ける AI Field Deployment Technician として運用するためのスキル群です。
+これは一般的な AI コンサルティング用プロンプトではありません。AI エージェントを、現場で動ける AI FIRST Field Deployment Technician として運用するためのスキル群です。
 
 ## 目的
 
@@ -20,13 +20,13 @@
 
 ## モジュール
 
-- `jackz-ai-fdt`: メイン統合 Skill
-- `jackz-ai-fdt-research`: 調査と情報源確認
-- `jackz-ai-fdt-diagnostic`: 顧客ヒアリングと深掘り診断
-- `jackz-ai-fdt-architecture`: AI 技術アーキテクチャ設計
-- `jackz-ai-fdt-deployment`: PoC、Pilot、本番展開、運用
-- `jackz-ai-fdt-troubleshooting`: 現場トラブル対応
-- `jackz-ai-fdt-adoption-observer`: 利用者反応と導入抵抗の観察
+- `ai-first-fdt`: メイン統合 Skill
+- `ai-first-fdt-research`: 調査と情報源確認
+- `ai-first-fdt-diagnostic`: 顧客ヒアリングと深掘り診断
+- `ai-first-fdt-architecture`: AI 技術アーキテクチャ設計
+- `ai-first-fdt-deployment`: PoC、Pilot、本番展開、運用
+- `ai-first-fdt-troubleshooting`: 現場トラブル対応
+- `ai-first-fdt-adoption-observer`: 利用者反応と導入抵抗の観察
 
 ## 安全方針
 

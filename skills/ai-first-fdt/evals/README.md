@@ -5,5 +5,5 @@ These eval cases test whether the FDT skill asks deeply, designs technically, ha
 Run structural validation:
 
 ```bash
-python skills/jackz-ai-fdt/scripts/validate_skill.py .
+python skills/ai-first-fdt/scripts/validate_skill.py .
 ```

@@ -2,11 +2,11 @@
 
 而是把一套現場方法封裝進去：先問清楚流程、資料、權限，再做架構、PoC、Pilot、排障、採用觀察。
 
-我把 Jackz.ai 的企業 AI 落地方法做成公開 Skill Suite：AI Field Deployment Technician。
+我把 Jackz.ai 的企業 AI 落地方法做成公開 Skill Suite：AI FIRST Field Deployment Technician。
 
 專為東亞企業設計：階層、面子、共識、風險迴避、資深員工心理。
 
 企業 AI 失敗，通常不是模型不夠強。
 是沒有把現場問到底。
 
-https://github.com/jacksoncoin0202-ops/jackz-ai-fdt-skill
+https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill

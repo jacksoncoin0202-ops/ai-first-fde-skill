@@ -18,7 +18,7 @@ A clean, modern information-design poster showing a company moving from messy da
 Composition:
 - Landscape 16:9 social media cover
 - Left side: a realistic but slightly stylized office workflow scene, with documents, spreadsheets, chat messages, approval stamps, and people trying to coordinate work
-- Center: a calm AI Field Deployment Technician figure or abstract AI operator mapping the workflow on a large transparent board
+- Center: a calm AI FIRST Field Deployment Technician figure or abstract AI operator mapping the workflow on a large transparent board
 - Right side: clean modular cards showing the transformation steps
 - Use directional arrows from left to right, showing "messy workflow → diagnosed workflow → AI pilot → safe rollout"
 

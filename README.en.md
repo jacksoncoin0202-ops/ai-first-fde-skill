@@ -1,8 +1,8 @@
-# Jackz.ai AI Field Deployment Technician Skill Suite
+# AI FIRST FDT SKILL
 
 Created by **Jackz.ai**, this public Hermes / Claude-style skill suite is designed for AI deployment inside **East Asian enterprise organizations**.
 
-It turns an AI agent into a front-line AI Field Deployment Technician: someone who investigates the real workflow, interviews the client deeply, designs technical architecture, executes PoC and pilot plans, troubleshoots incidents, observes user resistance, and produces delivery-ready documents.
+It turns an AI agent into a front-line AI FIRST Field Deployment Technician: someone who investigates the real workflow, interviews the client deeply, designs technical architecture, executes PoC and pilot plans, troubleshoots incidents, observes user resistance, and produces delivery-ready documents.
 
 ## Why this exists
 
@@ -23,13 +23,13 @@ This skill suite is built for that reality.
 
 ## Modules
 
-- `jackz-ai-fdt`: main orchestration skill
-- `jackz-ai-fdt-research`: research and source-grounded discovery
-- `jackz-ai-fdt-diagnostic`: deep client diagnostic interview
-- `jackz-ai-fdt-architecture`: AI solution architecture
-- `jackz-ai-fdt-deployment`: PoC, pilot, rollout, operations
-- `jackz-ai-fdt-troubleshooting`: field incident response
-- `jackz-ai-fdt-adoption-observer`: East Asian user resistance and adoption observation
+- `ai-first-fdt`: main orchestration skill
+- `ai-first-fdt-research`: research and source-grounded discovery
+- `ai-first-fdt-diagnostic`: deep client diagnostic interview
+- `ai-first-fdt-architecture`: AI solution architecture
+- `ai-first-fdt-deployment`: PoC, pilot, rollout, operations
+- `ai-first-fdt-troubleshooting`: field incident response
+- `ai-first-fdt-adoption-observer`: East Asian user resistance and adoption observation
 
 ## Core deliverables
 
@@ -53,7 +53,7 @@ This skill suite is built for that reality.
 ## Installation
 
 ```bash
-hermes skills install skills-sh/jacksoncoin0202-ops/jackz-ai-fdt-skill/skills/jackz-ai-fdt
+hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt
 ```
 
 ## Safety
