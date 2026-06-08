@@ -1,7 +1,7 @@
 # AI First FDE Skill — Research Grounding Report
 
 **Version:** 0.1
-**Maintainer:** Jackz.ai
+**Maintainer:** AI First FDE Skill contributors
 **Scope:** Public research grounding for the AI First FDE Skill
 **Audience:** enterprise AI consultants, internal AI champions, system integrators, AI product teams, and agent workflow builders
 **Public-safety note:** This document only cites public sources. It does not include customer names, private deployment files, credentials, internal URLs, or confidential architecture.
@@ -481,7 +481,7 @@ This makes the agent more useful because it stops treating every request as a wr
 
 The repo can safely claim:
 
-- The skill is designed by Jackz.ai.
+- The skill is designed as an open-source field deployment operating model.
 - The skill is an open-source, agent-runtime-neutral skill suite that can be used with Hermes, Claude Code, Codex, Cursor, OpenRouter-backed agents, OpenCLI workflows, and other Markdown-aware agent runtimes.
 - The skill is intended for enterprise AI field deployment.
 - The skill is optimized for East Asian enterprise adoption realities.

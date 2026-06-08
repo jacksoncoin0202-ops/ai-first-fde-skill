@@ -1,6 +1,6 @@
 # AI First FDE Skill
 
-**Jackz.ai** が作成した公開 Agent-runtime-neutral Skill Suite です。東アジアの企業文化を持つ組織における AI 導入、技術設計、現場展開、トラブルシューティング、利用定着を支援するために設計されています。
+東アジアの企業文化を持つ組織における AI 導入、技術設計、現場展開、トラブルシューティング、利用定着を支援する公開 Agent-runtime-neutral Skill Suite です。
 
 これは一般的な AI コンサルティング用プロンプトではありません。AI エージェントを、現場で動ける AI First Forward Deployed Engineer（FDE）として運用するためのスキル群です。
 

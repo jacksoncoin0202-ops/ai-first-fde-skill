@@ -2,7 +2,7 @@
 
 ## Version A
 
-Jackz.ai の企業 AI 導入プレイブックを、公開 Skill Suite として整理しました。
+企業 AI 導入プレイブックを、公開 Skill Suite として整理しました。
 
 **AI First Forward Deployed Engineer**
 

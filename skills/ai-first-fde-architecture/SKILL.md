@@ -2,12 +2,12 @@
 name: ai-first-fde-architecture
 description: Use this skill when the user needs technical AI solution architecture for enterprise deployment: RAG, agent workflows, Company Brain, permission-aware retrieval, tool integration, audit logging, human approval, evaluation, and rollback.
 version: 0.1.0
-author: Jackz.ai
+author: AI First FDE Skill contributors
 license: MIT
 metadata:
   hermes:
     category: business
-    tags: [jackz-ai, fde, enterprise-ai, east-asia]
+    tags: [ai-first, fde, enterprise-ai, east-asia]
 ---
 
 # Technical AI Solution Architecture

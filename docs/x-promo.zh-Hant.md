@@ -2,7 +2,7 @@
 
 ## 版本 A
 
-我把 Jackz.ai 內部用來做企業 AI 落地的方法，整理成一套公開 Skill：
+我把企業 AI 落地的方法，整理成一套公開 Skill：
 
 **AI First Forward Deployed Engineer**
 
@@ -35,6 +35,6 @@ AI 導入不是買工具。
 7. 使用者採用
 8. 排障與維運
 
-我把這套方法做成 Jackz.ai 的公開 Hermes Skill Suite，專門給東亞企業 AI 落地使用。
+我把這套方法做成公開 Hermes Skill Suite，專門給東亞企業 AI 落地使用。
 
 Repo：https://github.com/jacksoncoin0202-ops/ai-first-fde-skill

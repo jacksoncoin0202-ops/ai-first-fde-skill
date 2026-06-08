@@ -1,4 +1,4 @@
-# 中文說明｜Jackz.ai AI 前線部署工程師 Skill Suite
+# 中文說明｜AI 前線部署工程師 Skill Suite
 
 很多公司想做 AI First，但一開始就問錯問題。
 

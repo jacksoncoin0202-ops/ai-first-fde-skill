@@ -2,12 +2,12 @@
 name: ai-first-fde-deployment
 description: Use this skill when the user needs practical AI deployment execution: PoC, pilot, rollout, training, validation, KPI tracking, operations handoff, and enterprise adoption timeline.
 version: 0.1.0
-author: Jackz.ai
+author: AI First FDE Skill contributors
 license: MIT
 metadata:
   hermes:
     category: business
-    tags: [jackz-ai, fde, enterprise-ai, east-asia]
+    tags: [ai-first, fde, enterprise-ai, east-asia]
 ---
 
 # Deployment Execution

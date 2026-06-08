@@ -1,12 +1,12 @@
 # AI First FDE Skill
 
-這是 **Jackz.ai** 創造的公開 Agent-runtime-neutral Skill Suite，專門針對**東亞文化脈絡下的公司組織**進行 AI 導入、技術落地與現場排障。
+這是一套公開的 Agent-runtime-neutral Skill Suite，專門針對**東亞文化脈絡下的公司組織**進行 AI 導入、技術落地與現場排障。
 
 它不是一般 AI 顧問提示詞，也不是單純寫方案的模板。它的定位是：
 
 > 讓 Agent 變成一位 AI First Forward Deployed Engineer（FDE，前線部署工程師），進入企業現場後，能夠問到底、查清楚、設計方案、執行落地、排查問題、觀察使用者反應，最後交付可驗收、可維運、可公開安全改寫的成果。
 
-## 為什麼 Jackz.ai 要做這個 Skill？
+## 為什麼要做這個 Skill？
 
 東亞企業導入 AI 的問題，通常不是「不知道 ChatGPT 是什麼」。真正的阻力在於：
 
@@ -88,7 +88,7 @@ cd ai-first-fde-skill
 對 Agent 說：
 
 ```text
-使用 Jackz.ai FDE 模式，幫我為一家 200 人技術服務公司設計 AI First 導入方案。
+使用 AI First FDE 模式，幫我為一家 200 人技術服務公司設計 AI First 導入方案。
 ```
 
 或：

@@ -1,9 +1,9 @@
-# X 配圖生成 Prompt — Jackz.ai FDE / AI First
+# X 配圖生成 Prompt — AI First FDE / AI First
 
 Prompt family used:
 - ZeroLu awesome-gpt-image: infographic / education document style
 - Adapted from the Coffee Journey Infographic pattern: modular cards, directional flow, icons, clean educational layout
-- Brand grounding: Jackz.ai black/white minimal logo feel + cyber blue / red accent from existing Jackz.ai materials
+- Brand grounding: open-source AI field deployment, black/white minimal system feel, cyber blue / red accent
 
 Final prompt:
 
@@ -41,7 +41,7 @@ Design style:
 - Modern sans-serif typography, large spacing, clear visual hierarchy
 
 Brand feel:
-- Minimal black / white / cyber blue Jackz.ai feeling
+- Minimal black / white / cyber blue open-source AI deployment feeling
 - Serious, practical, field-deployment oriented
 - No overhyped robot face, no fantasy, no cartoon mascot
 - No stock-photo handshake, no generic glowing brain

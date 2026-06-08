@@ -2,15 +2,15 @@
   "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
   "groupings": [
     {
-      "title": "Jackz.ai AI Field Deployment",
+      "title": "AI First FDE Skill",
       "skills": [
-        "jackz-ai-fde",
-        "jackz-ai-fde-research",
-        "jackz-ai-fde-diagnostic",
-        "jackz-ai-fde-architecture",
-        "jackz-ai-fde-deployment",
-        "jackz-ai-fde-troubleshooting",
-        "jackz-ai-fde-adoption-observer"
+        "ai-first-fde",
+        "ai-first-fde-research",
+        "ai-first-fde-diagnostic",
+        "ai-first-fde-architecture",
+        "ai-first-fde-deployment",
+        "ai-first-fde-troubleshooting",
+        "ai-first-fde-adoption-observer"
       ]
     }
   ]

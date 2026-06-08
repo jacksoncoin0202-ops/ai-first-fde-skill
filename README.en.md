@@ -1,6 +1,6 @@
 # AI First FDE Skill
 
-Created by **Jackz.ai**, this public agent-runtime-neutral skill suite is designed for AI deployment inside **East Asian enterprise organizations**.
+This public agent-runtime-neutral skill suite is designed for AI deployment inside **East Asian enterprise organizations**.
 
 It turns an AI agent into an AI First Forward Deployed Engineer (FDE): someone who investigates the real workflow, interviews the client deeply, designs technical architecture, executes PoC and pilot plans, troubleshoots incidents, observes user resistance, and produces delivery-ready documents.
 

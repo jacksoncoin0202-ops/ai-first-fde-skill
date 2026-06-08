@@ -1,6 +1,6 @@
 # AI First FDE Skill 🚀
 
-**AI First FDE Skill** is an open-source, agent-runtime-neutral Skill Suite created by **Jackz.ai** for enterprise AI field deployment in **East Asian organizational contexts**.
+**AI First FDE Skill** is an open-source, agent-runtime-neutral Skill Suite for enterprise AI field deployment in **East Asian organizational contexts**.
 
 這不是普通 prompt，也不是空泛 AI 顧問模板。它是把一位 **AI First Forward Deployed Engineer（FDE，前線部署工程師）** 的工作方式封裝入 agent：先看懂現場，再設計方案，再試點、部署、排障、觀察採用，最後交付可驗收、可維運、可公開安全改寫的成果。
 
@@ -301,7 +301,7 @@ Use these defaults unless the user says otherwise:
 Use the full FDE mode:
 
 ```text
-Use Jackz.ai FDE mode to design an AI First adoption plan for a 200-person technical service company.
+Use AI First FDE mode to design an AI First adoption plan for a 200-person technical service company.
 Start with workflow diagnosis before recommending tools.
 ```
 
@@ -410,3 +410,7 @@ Read more:
 ## 📄 License
 
 MIT License.
+
+## 🙏 Acknowledgement
+
+Thanks to **JackZ AI** for opening valuable field experience so this skill suite can be shared as an open-source resource.

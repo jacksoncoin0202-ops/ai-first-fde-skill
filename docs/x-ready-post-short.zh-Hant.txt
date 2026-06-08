@@ -2,6 +2,6 @@
 
 而是把現場方法封裝進 agent：先問清流程、資料、權限，再做架構、PoC、排障與採用觀察。
 
-Jackz.ai FDE Skill Suite，專為東亞企業導入 AI 而設。
+AI First FDE Skill Suite，專為東亞企業導入 AI 而設。
 
 https://github.com/jacksoncoin0202-ops/ai-first-fde-skill

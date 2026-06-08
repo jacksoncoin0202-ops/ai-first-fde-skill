@@ -2,12 +2,12 @@
 name: ai-first-fde-troubleshooting
 description: Use this skill when an AI deployment has a field problem: bad answers, RAG misses, permission leaks, integration failures, latency, cost spikes, user complaints, adoption failure, or production incident.
 version: 0.1.0
-author: Jackz.ai
+author: AI First FDE Skill contributors
 license: MIT
 metadata:
   hermes:
     category: business
-    tags: [jackz-ai, fde, enterprise-ai, east-asia]
+    tags: [ai-first, fde, enterprise-ai, east-asia]
 ---
 
 # Field Troubleshooting

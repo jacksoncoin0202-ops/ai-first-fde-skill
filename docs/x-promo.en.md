@@ -2,7 +2,7 @@
 
 ## Version A
 
-I turned Jackz.ai's enterprise AI deployment playbook into a public skill suite:
+I turned an enterprise AI deployment playbook into a public skill suite:
 
 **AI First Forward Deployed Engineer**
 

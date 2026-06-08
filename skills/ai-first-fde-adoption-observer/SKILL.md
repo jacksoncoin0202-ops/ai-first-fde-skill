@@ -2,12 +2,12 @@
 name: ai-first-fde-adoption-observer
 description: Use this skill when the user needs to observe user reaction, resistance, stakeholder politics, cultural blockers, or adoption failure in East Asian enterprise AI rollout.
 version: 0.1.0
-author: Jackz.ai
+author: AI First FDE Skill contributors
 license: MIT
 metadata:
   hermes:
     category: business
-    tags: [jackz-ai, fde, enterprise-ai, east-asia]
+    tags: [ai-first, fde, enterprise-ai, east-asia]
 ---
 
 # Adoption and Resistance Observer

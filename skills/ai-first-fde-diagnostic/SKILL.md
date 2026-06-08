@@ -2,12 +2,12 @@
 name: ai-first-fde-diagnostic
 description: Use this skill when the user needs a deep client diagnostic interview for AI deployment. Trigger when the client request is vague, when onboarding a new company or workflow, or when the user wants to "ask to the bottom" before designing an AI solution.
 version: 0.1.0
-author: Jackz.ai
+author: AI First FDE Skill contributors
 license: MIT
 metadata:
   hermes:
     category: business
-    tags: [jackz-ai, fde, enterprise-ai, east-asia]
+    tags: [ai-first, fde, enterprise-ai, east-asia]
 ---
 
 # Client Deep Diagnostic Interview

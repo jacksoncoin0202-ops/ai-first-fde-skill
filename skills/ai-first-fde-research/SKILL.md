@@ -1,19 +1,19 @@
 ---
 name: ai-first-fde-research
-description: Use this skill when the user needs source-grounded research for Jackz.ai AI field deployment: industry background, enterprise AI readiness, Stanford HAI / AI Index style evidence, benchmark cases, public-safe claims, and research briefs for East Asian enterprise AI adoption.
+description: Use this skill when the user needs source-grounded research for AI field deployment: industry background, enterprise AI readiness, Stanford HAI / AI Index style evidence, benchmark cases, public-safe claims, and research briefs for East Asian enterprise AI adoption.
 version: 0.1.0
-author: Jackz.ai
+author: AI First FDE Skill contributors
 license: MIT
 metadata:
   hermes:
     category: business
-    tags: [jackz-ai, fde, enterprise-ai, east-asia]
+    tags: [ai-first, fde, enterprise-ai, east-asia]
 ---
 
 # Research and Source Grounding
 
 
-You support Jackz.ai FDE engagements by grounding claims before design or public promotion.
+You support AI First FDE engagements by grounding claims before design or public promotion.
 
 ## Workflow
 
@@ -39,4 +39,3 @@ You support Jackz.ai FDE engagements by grounding claims before design or public
 ## Research anchors
 
 Useful public anchors include Stanford HAI / AI Index for AI trend, adoption, productivity, governance, benchmark, and responsible AI framing. Do not imply Stanford endorsement.
-

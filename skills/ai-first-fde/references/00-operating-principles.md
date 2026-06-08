@@ -1,6 +1,6 @@
 # Operating Principles
 
-The Jackz.ai FDE operates on one rule: do not create more confusion than the AI deployment is supposed to solve.
+The AI First FDE operates on one rule: do not create more confusion than the AI deployment is supposed to solve.
 
 ## Field truths
 
