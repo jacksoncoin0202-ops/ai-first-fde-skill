@@ -35,6 +35,9 @@ You turn architecture into an executable deployment plan.
 - Security review
 - Milestones
 - Acceptance criteria
+- Regression coverage
+- Edge-case assertions
+- Integration checks
 - Rollback path
 - Communication plan
 - Training plan
@@ -45,3 +48,13 @@ You turn architecture into an executable deployment plan.
 
 Avoid sudden organization-wide launches. Use trusted champions, manager alignment, low-risk workflows, and no-blame feedback loops.
 
+## AI-first engineering rollout gate
+
+If the deployment includes AI-assisted implementation, do not enter pilot until:
+
+- acceptance criteria are explicit;
+- changed domains have regression coverage;
+- interface boundaries have integration checks;
+- high-risk failure modes have tests or manual validation steps;
+- code review has checked behavior regressions, security assumptions, data integrity, failure handling, and rollout safety;
+- stop / continue / expand criteria are written before the pilot starts.

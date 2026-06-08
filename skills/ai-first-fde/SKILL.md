@@ -42,6 +42,7 @@ The stance is transformation, not headcount reduction. Frame AI as a way to redu
 14. Treat enterprise knowledge as deployment infrastructure. If knowledge is scattered, design an LLM Wiki / knowledge graph handoff before retrieval, RAG, or agent automation.
 15. Keep the core skill dependency-free. Do not require heavy runtimes, connectors, browsers, external services, or installable tools to complete the standard FDE workflow.
 16. If optional add-ons are useful, keep them separate from the core workflow and route to `ai-first-fde-addons`. Never install or invoke dependency-based add-ons by default.
+17. When the deployment includes AI-assisted implementation, apply AI-first engineering discipline: plan quality, explicit boundaries, stable contracts, deterministic tests, regression coverage, and rollout-safe reviews.
 
 ## Operating loop
 
@@ -69,6 +70,7 @@ Classify the user's request into one or more modes:
 - Organization mapping mode: use organization architecture and relationship mapping. Produce org map, approval route, informal veto map, handoff map, escalation path, and AI operating responsibility map.
 - Knowledge architecture mode: use LLM Wiki / knowledge graph style. Produce source register, domain taxonomy, owner matrix, permission matrix, contradiction log, update cadence, and retrieval boundaries.
 - Architecture mode: use `ai-first-fde-architecture` style. Produce technical solution design.
+- AI-first engineering mode: use the no-dependency engineering operating model. Define acceptance criteria, agent-friendly boundaries, review focus, eval coverage, deterministic tests, and rollout safety.
 - Deployment mode: use `ai-first-fde-deployment` style. Produce PoC, pilot, rollout, and operations plan.
 - Troubleshooting mode: use `ai-first-fde-troubleshooting` style. Diagnose incidents by layer and produce containment, fix, validation, prevention.
 - Adoption observer mode: use `ai-first-fde-adoption-observer` style. Observe user resistance and cultural blockers.
@@ -83,11 +85,12 @@ When multiple modes apply, run them in this order:
 5. Knowledge / LLM Wiki map
 6. Use case prioritization
 7. Solution architecture
-8. Deployment plan
-9. Adoption plan
-10. Validation plan
-11. Operations handoff
-12. Public-safe executive summary
+8. AI-first engineering operating model, if implementation is in scope
+9. Deployment plan
+10. Adoption plan
+11. Validation plan
+12. Operations handoff
+13. Public-safe executive summary
 
 ## Core / add-on boundary
 
@@ -128,6 +131,78 @@ Do not use an add-on if:
 - it risks exposing private client details;
 - it distracts from the next decision, owner, KPI, or rollout gate.
 
+## AI-first engineering core
+
+Use this section when the FDE engagement includes AI-assisted code generation, agent-written implementation, engineering team process design, or production architecture handoff.
+
+This is part of the no-dependency core. It requires no tools beyond Markdown, review discipline, and clear acceptance criteria.
+
+### Process shifts
+
+Apply these defaults:
+
+1. Planning quality matters more than typing speed.
+2. Eval coverage matters more than anecdotal confidence.
+3. Review focus shifts from syntax to system behavior.
+4. Architecture must be easy for agents to understand and hard for agents to misuse.
+5. Rollout safety matters more than demo speed.
+
+### Agent-friendly architecture requirements
+
+Prefer designs with:
+
+- explicit module boundaries;
+- stable contracts;
+- typed interfaces, if the implementation language supports them;
+- deterministic tests;
+- clear ownership of data, permissions, and side effects;
+- named failure modes and rollback paths.
+
+Avoid:
+
+- implicit behavior spread across hidden conventions;
+- undocumented cross-module coupling;
+- business rules buried in prompts only;
+- tests that only prove the happy path;
+- generated implementation without acceptance criteria.
+
+### AI-assisted code review focus
+
+When reviewing implementation produced by AI agents, review for:
+
+- behavior regressions;
+- security assumptions;
+- data integrity;
+- permission leakage;
+- failure handling;
+- rollback safety;
+- interface contract drift;
+- deployment and adoption risk.
+
+Minimize time spent on style issues already covered by automation.
+
+### Testing standard
+
+Raise the testing bar for generated code:
+
+- regression coverage for touched domains;
+- explicit edge-case assertions;
+- integration checks for interface boundaries;
+- permission and data-safety checks;
+- failure-mode tests for high-risk actions;
+- rollout gates that define stop / continue / expand decisions.
+
+### Engineering evaluation signals
+
+A strong AI-first implementation plan must show:
+
+- clean decomposition of ambiguous work;
+- measurable acceptance criteria;
+- high-signal prompts or task briefs for implementation agents;
+- evals that test behavior, not just output shape;
+- risk controls under delivery pressure;
+- a named owner for post-rollout operation.
+
 ## Required final delivery package
 
 A complete FDE engagement should produce:
@@ -146,6 +221,9 @@ A complete FDE engagement should produce:
 - Data Inventory
 - Permission and Risk Model
 - Technical Solution Architecture
+- Agent-Friendly Engineering Contract
+- AI-Assisted Code Review Checklist
+- Eval / Regression Coverage Plan
 - PoC Plan
 - Pilot Plan
 - Deployment Runbook

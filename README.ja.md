@@ -171,6 +171,16 @@ Skill は LLM Wiki handoff plan を作成します。内容には domain taxonom
 - Rollout：KPI、利用率、リスク制御、owner readiness が揃ってから拡大する。
 - Operations：monitoring、support、access review、cost review、quality review、incident response、knowledge refresh を定義する。
 
+### 6. AI-First Engineering Core
+
+Implementation が scope に含まれる場合、この Skill は dependency-free の AI-first engineering operating model を使います。
+
+- planning quality を typing speed より優先する。
+- eval coverage を anecdotal confidence より優先する。
+- explicit boundaries、stable contracts、typed interfaces、deterministic tests を要求する。
+- code review は behavior regressions、security assumptions、data integrity、failure handling、rollout safety に集中する。
+- touched domains には regression coverage、interface boundaries には integration checks を要求する。
+
 ## Core and Optional Add-ons
 
 Default の `ai-first-fde` skill は dependency-free core です。Markdown、Mermaid、tables、checklists だけで動作します。

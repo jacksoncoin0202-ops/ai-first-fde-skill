@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.5 - Integrate no-dependency AI-first engineering core
+
+- Integrated the local `ai-first-engineering` operating model into the no-dependency FDE core.
+- Added planning quality, eval coverage, agent-friendly boundaries, stable contracts, deterministic tests, rollout-safe review, and regression coverage guidance.
+- Updated architecture and deployment subskills with AI-assisted implementation review and rollout gates.
+- Updated all README language pages with the AI-First Engineering Core section.
+
 ## 0.1.4 - Split dependency add-ons from no-dependency core
 
 - Added `ai-first-fde-addons` as a separate optional skill for dependency-based advanced outputs.

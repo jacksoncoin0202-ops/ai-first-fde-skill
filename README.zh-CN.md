@@ -171,6 +171,16 @@ Skill 会产出 LLM Wiki handoff plan，包含 domain taxonomy、source register
 - Rollout：只有在 KPI、使用率、风险控制和 owner ready 后才扩大；
 - Operations：定义 monitoring、support、access review、cost review、quality review、incident response、knowledge refresh。
 
+### 6. AI-First Engineering Core
+
+当任务包含 implementation，这套 Skill 会直接套用无依赖的 AI-first engineering operating model：
+
+- planning quality 先于 typing speed；
+- eval coverage 先于 anecdotal confidence；
+- explicit boundaries、stable contracts、typed interfaces、deterministic tests；
+- code review 聚焦 behavior regressions、security assumptions、data integrity、failure handling、rollout safety；
+- touched domains 要有 regression coverage，interface boundaries 要有 integration checks。
+
 ## Core and Optional Add-ons
 
 默认 `ai-first-fde` skill 是无依赖核心。它只靠 Markdown、Mermaid、tables 和 checklists 就能运作。

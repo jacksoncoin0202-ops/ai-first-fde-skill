@@ -21,6 +21,9 @@ Every design must include:
 
 - User journey
 - Workflow boundary
+- Explicit module boundaries
+- Stable contracts
+- Typed interfaces, if the implementation language supports them
 - Data sources
 - Ingestion pipeline
 - Indexing / retrieval strategy
@@ -30,6 +33,8 @@ Every design must include:
 - Human approval gates
 - Audit logs
 - Evaluation method
+- Deterministic tests
+- Regression coverage for touched domains
 - Monitoring and feedback loop
 - Failure modes
 - Rollback plan
@@ -40,7 +45,17 @@ Every design must include:
 
 Do not default to the largest model. Choose based on data sensitivity, latency, cost, language, availability, governance, and expected task complexity.
 
+## AI-first engineering discipline
+
+If AI agents will generate implementation output, design the architecture so the agent can act safely:
+
+- Make boundaries explicit.
+- Define acceptance criteria before implementation.
+- Keep contracts stable and documented.
+- Put business rules in code, schemas, tests, or controlled configuration, not only in prompts.
+- Require integration checks at interface boundaries.
+- Review generated code for behavior, security assumptions, data integrity, failure handling, and rollout safety.
+
 ## High-risk areas
 
 For legal, finance, HR, medical, security, pricing, contract, and destructive operations, keep AI in draft/recommendation mode unless explicit human approval is designed.
-

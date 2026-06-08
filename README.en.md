@@ -171,6 +171,16 @@ The skill separates proof from deployment:
 - Rollout: expand only after measured value, repeated usage, and owner readiness.
 - Operations: define monitoring, support, access review, cost review, quality review, incident response, and knowledge refresh.
 
+### 6. AI-First Engineering Core
+
+When implementation is in scope, the skill applies an AI-first engineering operating model without adding dependencies:
+
+- planning quality before typing speed;
+- eval coverage before anecdotal confidence;
+- explicit boundaries, stable contracts, typed interfaces, and deterministic tests;
+- review focus on behavior regressions, security assumptions, data integrity, failure handling, and rollout safety;
+- regression coverage for touched domains and integration checks at interface boundaries.
+
 ## Core and Optional Add-ons
 
 The default `ai-first-fde` skill is dependency-free. It works with Markdown, Mermaid, tables, and checklists only.
