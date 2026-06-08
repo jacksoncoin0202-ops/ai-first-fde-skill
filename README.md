@@ -1,10 +1,43 @@
-# AI FIRST FDT SKILL
+# AI FIRST FDT SKILL 🚀
 
 **AI FIRST FDT SKILL** is an open-source, agent-runtime-neutral Skill Suite created by **Jackz.ai** for enterprise AI field deployment in **East Asian organizational contexts**.
 
 這不是普通 prompt，也不是空泛 AI 顧問模板。它是把一位 **AI FIRST Field Deployment Technician** 的工作方式封裝入 agent：先看懂現場，再設計方案，再試點、部署、排障、觀察採用，最後交付可驗收、可維運、可公開安全改寫的成果。
 
-## One-Line Positioning
+## 🌐 Choose Your Language / 選擇語言 / 言語を選択
+
+| Language | README | Short description |
+| --- | --- | --- |
+| 🇭🇰 繁體中文 | [`README.zh-Hant.md`](README.zh-Hant.md) | [`docs/descriptions/zh-Hant.md`](docs/descriptions/zh-Hant.md) |
+| 🇺🇸 English | [`README.en.md`](README.en.md) | [`docs/descriptions/en.md`](docs/descriptions/en.md) |
+| 🇯🇵 日本語 | [`README.ja.md`](README.ja.md) | [`docs/descriptions/ja.md`](docs/descriptions/ja.md) |
+
+## ⚡ Quick Start
+
+Clone the repository:
+
+```bash
+git clone https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill.git
+cd ai-first-fdt-skill
+```
+
+Then tell your agent:
+
+```text
+Read skills/ai-first-fdt/SKILL.md first.
+If the task needs research, diagnostic interview, architecture, deployment, troubleshooting, or adoption observation,
+read the matching skills/ai-first-fdt-* module and skills/ai-first-fdt/references/.
+```
+
+中文版本：
+
+```text
+請先讀 skills/ai-first-fdt/SKILL.md。
+如果任務需要研究、診斷、架構、部署、排障或 adoption observation，
+請再讀對應的 skills/ai-first-fdt-* 模組與 skills/ai-first-fdt/references/。
+```
+
+## 🧭 One-Line Positioning
 
 A skill suite that turns an AI agent into a front-line AI deployment technician:
 
@@ -19,7 +52,7 @@ A skill suite that turns an AI agent into a front-line AI deployment technician:
 
 > 讓 Agent 變成「AI 前線部署工程師」：先問清楚、再設計、再試點、再部署、再驗證。
 
-## Why This Exists
+## 💡 Why This Exists
 
 AI 導入最常見的失敗，不是模型不夠強，而是現場根本沒有被看懂。
 
@@ -44,7 +77,7 @@ AI FIRST FDT asks the operational questions first:
 
 Enterprise AI does not become real because a demo works. It becomes real when AI is safely embedded into daily work with known data sources, permission boundaries, approval points, monitoring, rollback, training, and operations ownership.
 
-## East Asia Deployment Context
+## 🌏 East Asia Deployment Context
 
 This suite is designed for companies operating in Japan, Taiwan, Hong Kong, Korea, Singapore, mainland China, and culturally adjacent enterprise teams where adoption is shaped by:
 
@@ -59,7 +92,7 @@ This suite is designed for companies operating in Japan, Taiwan, Hong Kong, Kore
 
 AI FIRST FDT does not treat these as soft side issues. They are deployment variables. If they are ignored, AI stays in demo mode and never enters daily operations.
 
-## What Problem It Solves
+## 🧩 What Problem It Solves
 
 This Skill Suite helps a consultant, internal AI champion, system integrator, or product team break enterprise AI adoption into executable field work:
 
@@ -74,7 +107,7 @@ This Skill Suite helps a consultant, internal AI champion, system integrator, or
 9. hand off a system that can be validated and maintained;
 10. rewrite public case studies without exposing client secrets.
 
-## Who Should Use This
+## 👥 Who Should Use This
 
 - Enterprise AI consultants
 - Field deployment engineers
@@ -86,7 +119,7 @@ This Skill Suite helps a consultant, internal AI champion, system integrator, or
 - Agent workflow builders
 - Teams bringing AI from slide decks into real company workflows
 
-## What This Is Not
+## 🚫 What This Is Not
 
 AI FIRST FDT is not:
 
@@ -100,21 +133,7 @@ AI FIRST FDT is not:
 
 The skill intentionally slows the agent down at the right moment: before it recommends, it diagnoses; before it deploys, it maps risks; before it publishes, it redacts.
 
-## Languages
-
-Full README files:
-
-- 繁體中文：[`README.zh-Hant.md`](README.zh-Hant.md)
-- English: [`README.en.md`](README.en.md)
-- 日本語：[`README.ja.md`](README.ja.md)
-
-Short public descriptions for GitHub / X / docs:
-
-- 繁體中文：[`docs/descriptions/zh-Hant.md`](docs/descriptions/zh-Hant.md)
-- English: [`docs/descriptions/en.md`](docs/descriptions/en.md)
-- 日本語：[`docs/descriptions/ja.md`](docs/descriptions/ja.md)
-
-## Use With Any Agent Runtime
+## 🤖 Use With Any Agent Runtime
 
 This suite is not limited to Hermes. It can be used with any agent runtime that can read Markdown instructions, project rules, skills, MCP context, or prompt files.
 
@@ -140,32 +159,7 @@ Full guide:
 
 - [`docs/agent-runtime-download-guide.zh-Hant.md`](docs/agent-runtime-download-guide.zh-Hant.md)
 
-## Quick Start
-
-Clone the repository:
-
-```bash
-git clone https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill.git
-cd ai-first-fdt-skill
-```
-
-Then tell your agent:
-
-```text
-Read skills/ai-first-fdt/SKILL.md first.
-If the task needs research, diagnostic interview, architecture, deployment, troubleshooting, or adoption observation,
-read the matching skills/ai-first-fdt-* module and skills/ai-first-fdt/references/.
-```
-
-中文版本：
-
-```text
-請先讀 skills/ai-first-fdt/SKILL.md。
-如果任務需要研究、診斷、架構、部署、排障或 adoption observation，
-請再讀對應的 skills/ai-first-fdt-* 模組與 skills/ai-first-fdt/references/。
-```
-
-## Download / Install Matrix
+## 📦 Download / Install Matrix
 
 Always install from official sources. Do not use random SEO install guides, unknown npm wrappers, or unofficial mobile / desktop wrappers.
 
@@ -189,7 +183,7 @@ Always install from official sources. Do not use random SEO install guides, unkn
 | Devin CLI | Local CLI with Devin Cloud integration | `curl -fsSL https://cli.devin.ai/install.sh \| bash` | Use FDT as discovery, planning, delivery, and operations playbook. |
 | Roo Code | Legacy / sunset VS Code agent extension | Roo Code docs show the extension was shut down on 2026-05-15 | Not recommended as a new default. If an existing team uses it, mark the shutdown status and consider Cline or a maintained alternative. |
 
-## Hermes Direct Install
+## 🛠 Hermes Direct Install
 
 Install the main orchestration skill:
 
@@ -208,7 +202,7 @@ hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai
 hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt-adoption-observer
 ```
 
-## Skill Modules
+## 🧱 Skill Modules
 
 This is a suite, not a single thin instruction file.
 
@@ -220,7 +214,7 @@ This is a suite, not a single thin instruction file.
 - `ai-first-fdt-troubleshooting`: field incident response; diagnoses failures by layer and produces containment, fix, validation, prevention.
 - `ai-first-fdt-adoption-observer`: East Asian adoption resistance observation; identifies hidden blockers and safer rollout tactics.
 
-## Operating Model
+## 🔁 Operating Model
 
 When a user asks for help, the main skill routes the work into one or more modes:
 
@@ -235,7 +229,7 @@ When a user asks for help, the main skill routes the work into one or more modes
 9. **Validation**: define 30/60/90-day metrics, acceptance checks, and evidence that the workflow improved.
 10. **Public-safe summary**: rewrite outputs for public sharing without exposing client identity or internal details.
 
-## Mandatory FDT Principles
+## ✅ Mandatory FDT Principles
 
 The skill instructs the agent to:
 
@@ -248,7 +242,7 @@ The skill instructs the agent to:
 - split complex tasks into research, diagnostic, architecture, deployment, troubleshooting, and adoption observation;
 - prefer practical deliverables over abstract discussion.
 
-## Diagnostic Questions
+## 🔎 Diagnostic Questions
 
 When the environment is unclear, FDT starts with the smallest set of questions that unlock the next step:
 
@@ -263,7 +257,7 @@ When the environment is unclear, FDT starts with the smallest set of questions t
 9. What is the adoption risk?
 10. What information must remain confidential?
 
-## Standard Deliverables
+## 📋 Standard Deliverables
 
 A complete FDT engagement should produce:
 
@@ -287,7 +281,7 @@ A complete FDT engagement should produce:
 - Executive Summary
 - Public-safe Case Rewrite, if the user wants public promotion
 
-## East Asia Adoption Defaults
+## 🌱 East Asia Adoption Defaults
 
 Use these defaults unless the user says otherwise:
 
@@ -302,7 +296,7 @@ Use these defaults unless the user says otherwise:
 - Use team-level metrics before individual ranking.
 - Preserve human approval for important decisions.
 
-## Example Prompts
+## 💬 Example Prompts
 
 Use the full FDT mode:
 
@@ -332,7 +326,7 @@ Rewrite this internal deployment story as a public-safe case study.
 Remove customer identifiers, internal URLs, credentials, exact architecture details, and political details.
 ```
 
-## Repository Map
+## 🗺 Repository Map
 
 ```text
 skills/
@@ -356,7 +350,7 @@ docs/
   descriptions/
 ```
 
-## Agent Runtime Research Method
+## 🔬 Agent Runtime Research Method
 
 When researching whether a market agent can use this skill, record:
 
@@ -369,7 +363,7 @@ When researching whether a market agent can use this skill, record:
 - maintenance status: release notes, docs update date, shutdown notice, archived repo;
 - enterprise fit: data retention, audit log, policy control, model provider choice, offline / local support.
 
-## Public Safety
+## 🔐 Public Safety
 
 This repository is public. Do not contribute:
 
@@ -392,7 +386,7 @@ For public GitHub, X.com, decks, articles, or case studies:
 - do not cite private memory or internal files as public evidence;
 - do not imply endorsement by Stanford, NIST, OECD, Microsoft, McKinsey, METI, MIC, or any referenced organization.
 
-## Research Grounding
+## 📚 Research Grounding
 
 The suite is informed by public research and governance materials, including:
 
@@ -413,6 +407,6 @@ Read more:
 - Full research report: [`docs/research/ai-first-fdt-research-report.en.md`](docs/research/ai-first-fdt-research-report.en.md)
 - Source notes: [`docs/source-notes.md`](docs/source-notes.md)
 
-## License
+## 📄 License
 
 MIT License.
