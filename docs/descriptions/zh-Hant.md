@@ -14,18 +14,22 @@
 
 它不是普通提示詞，也不是空泛的 AI 顧問模板。它會讓 agent 先看懂現場，再設計方案。
 
+它的立場也很清楚：不是用 AI 做裁員，而是用 AI 做轉型。它會把 AI 定位成減少加班、返工、等待、context switching 和重複行政工作，同時保留 senior expertise，讓有經驗的人變成 reviewer、trainer、approver、process owner 和改善負責人。
+
 ## 它解決什麼問題？
 
 它幫公司把 AI 導入拆成可以執行的步驟：
 
 1. 找出最值得先導入 AI 的工作流程
 2. 盤點資料來源、權限與責任人
-3. 判斷哪些工作可以交給 AI，哪些一定要人審
-4. 設計安全的小範圍試點
-5. 做出技術架構與部署計畫
-6. 觀察員工為什麼不用、哪裡卡住
-7. 出問題時可以排查、修復、回滾
-8. 最後交付可驗收、可維運、可公開安全改寫的文件
+3. 畫出 organization architecture、approval route、relationship map 和 informal blocker map
+4. 把分散企業知識整理成 LLM Wiki / source-of-truth structure
+5. 判斷哪些工作可以交給 AI，哪些一定要人審
+6. 設計安全的小範圍試點
+7. 做出技術架構與部署計畫
+8. 觀察員工為什麼不用、哪裡卡住
+9. 出問題時可以排查、修復、回滾
+10. 最後交付可驗收、可維運、可公開安全改寫的文件
 
 ## 為什麼特別針對東亞企業？
 
@@ -39,8 +43,18 @@
 - 面子問題
 - 資深員工的習慣
 - 表面配合、實際不用的阻力
+- 擔心 AI 代表裁員，而不是轉型
 
 這些問題如果不處理，AI 很容易停在 demo，不會真的進入日常工作。
+
+## 為什麼更完整？
+
+這套 Skill 可以把相鄰能力縫合進 FDE workflow：
+
+- 用 architecture diagram / relationship graph 畫組織架構和影響力
+- 用 LLM Wiki / knowledge graph 規劃分散企業知識
+- 規劃 Claude Code、Codex、Cursor、Hermes、OpenRouter、OpenCode / OpenCLI-style tools 等 agent runtime
+- 接入 security、evaluation、deployment、documentation skills，完成 production handoff
 
 ## 這套 Skill 適合誰？
 
@@ -52,4 +66,4 @@
 
 ## 一句話定位
 
-這是一套讓 agent 變成「AI 前線部署工程師」的 Skill Suite：先問清楚、再設計、再試點、再部署、再驗證。
+這是一套讓 agent 變成「AI 前線部署工程師」的 Skill Suite：先問清楚、畫組織、整理知識、再設計、再試點、再部署、再驗證。

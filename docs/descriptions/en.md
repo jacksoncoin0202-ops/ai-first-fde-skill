@@ -16,19 +16,23 @@ The real starting point is the work itself: What does the company do every day? 
 
 It is not a generic prompt and not a vague AI consulting template. It teaches the agent to understand the real workflow before recommending tools or architecture.
 
+It is also intentionally transformation-oriented. The goal is not to sell AI as a headcount reduction machine. The goal is to reduce overtime, rework, waiting, context switching, and repetitive administration while preserving senior expertise and moving people into reviewer, trainer, approver, process owner, and improvement roles.
+
 ## What problem does it solve?
 
 It helps an agent break enterprise AI adoption into concrete steps:
 
 1. Find the workflow that is worth improving first
 2. Map data sources, permissions, users, and owners
-3. Decide what AI can draft, answer, summarize, or automate
-4. Keep human approval where it is needed
-5. Design a safe proof of concept and pilot
-6. Build a technical architecture and rollout plan
-7. Observe why employees resist or avoid the tool
-8. Troubleshoot incidents, fix problems, and roll back safely
-9. Produce documents that can be reviewed, operated, and shared safely
+3. Draw the organization architecture, approval route, relationship map, and informal blocker map
+4. Organize scattered enterprise knowledge into an LLM Wiki / source-of-truth structure
+5. Decide what AI can draft, answer, summarize, or automate
+6. Keep human approval where it is needed
+7. Design a safe proof of concept and pilot
+8. Build a technical architecture and rollout plan
+9. Observe why employees resist or avoid the tool
+10. Troubleshoot incidents, fix problems, and roll back safely
+11. Produce documents that can be reviewed, operated, and shared safely
 
 ## Why focus on East Asian organizations?
 
@@ -42,8 +46,18 @@ You also need to handle:
 - face-saving culture
 - senior staff habits
 - hidden resistance behind polite agreement
+- concern that AI means layoffs rather than transformation
 
 If those issues are ignored, the AI project often stays as a demo and never becomes part of daily work.
+
+## What makes it more complete?
+
+The skill can stitch adjacent capabilities into the FDE workflow:
+
+- architecture diagrams and relationship graphs for organization structure
+- LLM Wiki and knowledge graph planning for scattered enterprise knowledge
+- agent runtime planning for Claude Code, Codex, Cursor, Hermes, OpenRouter, OpenCode / OpenCLI-style tools, and similar agents
+- security, evaluation, deployment, and documentation skills for production handoff
 
 ## Who is this for?
 
@@ -55,4 +69,4 @@ If those issues are ignored, the AI project often stays as a demo and never beco
 
 ## One-line positioning
 
-A skill suite that turns an AI agent into a Forward Deployed Engineer (FDE): diagnose first, design second, pilot safely, deploy carefully, and verify adoption.
+A skill suite that turns an AI agent into a Forward Deployed Engineer (FDE): diagnose first, map the organization, structure the knowledge, design second, pilot safely, deploy carefully, and verify adoption.

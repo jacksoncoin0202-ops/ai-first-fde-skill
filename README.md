@@ -1,6 +1,6 @@
 # AI First FDE Skill
 
-Markdown-only, no-build skill suite for Forward Deployed Engineer style enterprise AI deployment.
+Markdown-only, no-build skill suite for East Asia-oriented Forward Deployed Engineer style enterprise AI deployment: transformation over layoffs, organization mapping, LLM Wiki knowledge structure, safe pilots, rollout, and adoption.
 
 ## Choose README
 

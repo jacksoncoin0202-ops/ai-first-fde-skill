@@ -16,18 +16,22 @@
 
 これは普通のプロンプトではありません。抽象的な AI コンサル資料でもありません。agent に、まず現場の業務を理解させてから、技術設計と導入計画を作らせるためのものです。
 
+この Skill は、人員削減ではなく変革を前提にします。AI を、残業、手戻り、待ち時間、context switching、反復的な事務作業を減らすためのものとして位置付けます。同時に、経験豊富な社員を reviewer、trainer、approver、process owner、改善リーダーとして活かします。
+
 ## 何を解決するのか？
 
 この Skill Suite は、企業の AI 導入を次のような実行可能な手順に分解します。
 
 1. まず AI を入れるべき業務フローを見つける
 2. データ、権限、利用者、責任者を整理する
-3. AI に任せられる作業と、人間の確認が必要な作業を分ける
-4. 小さく安全な PoC とパイロットを設計する
-5. 技術アーキテクチャと展開計画を作る
-6. 社員がなぜ使わないのか、どこで止まるのかを観察する
-7. 問題が起きた時に調査、修正、ロールバックできるようにする
-8. レビュー、運用、公開用の安全な資料を作る
+3. organization architecture、approval route、relationship map、informal blocker map を作る
+4. 分散ナレッジを LLM Wiki / source-of-truth structure に整理する
+5. AI に任せられる作業と、人間の確認が必要な作業を分ける
+6. 小さく安全な PoC とパイロットを設計する
+7. 技術アーキテクチャと展開計画を作る
+8. 社員がなぜ使わないのか、どこで止まるのかを観察する
+9. 問題が起きた時に調査、修正、ロールバックできるようにする
+10. レビュー、運用、公開用の安全な資料を作る
 
 ## なぜ東アジア企業向けなのか？
 
@@ -41,8 +45,18 @@
 - 面子と責任の問題
 - ベテラン社員の習慣
 - 表向きは賛成しても、実際には使われない抵抗
+- AI が人員削減を意味するのではないかという不安
 
 ここを無視すると、AI 導入はデモで止まり、日々の仕事には入りません。
+
+## 何がより完全なのか？
+
+この Skill は、隣接 capabilities を FDE workflow に接続できます。
+
+- architecture diagram / relationship graph で組織構造と影響力を可視化する
+- LLM Wiki / knowledge graph で分散した企業ナレッジを整理する
+- Claude Code、Codex、Cursor、Hermes、OpenRouter、OpenCode / OpenCLI-style tools などの agent runtime を計画する
+- security、evaluation、deployment、documentation skills を接続し、production handoff まで扱う
 
 ## 誰のためのものか？
 
@@ -54,4 +68,4 @@
 
 ## 一言でいうと
 
-AI agent を「現場で動ける Forward Deployed Engineer（FDE）」に変える Skill Suite です。先に診断し、次に設計し、小さく試し、安全に展開し、最後に定着を確認します。
+AI agent を「現場で動ける Forward Deployed Engineer（FDE）」に変える Skill Suite です。先に診断し、組織を可視化し、知識を整理し、次に設計し、小さく試し、安全に展開し、最後に定着を確認します。
