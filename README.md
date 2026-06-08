@@ -53,4 +53,9 @@ This repository is public. Do not contribute customer names, confidential archit
 
 ## Research grounding
 
-The suite is informed by enterprise AI deployment practice, East Asian organizational culture, responsible AI governance, and public research references including Stanford HAI / AI Index materials. It does not claim Stanford endorsement.
+The suite is informed by enterprise AI deployment practice, East Asian organizational culture, responsible AI governance, and public research references including Stanford HAI / AI Index, NIST AI RMF, OECD AI Principles, Microsoft Work Trend Index, McKinsey State of AI, and Japan METI / MIC AI Business Guidelines materials.
+
+- Full research grounding report: [`docs/research/ai-first-fdt-research-report.en.md`](docs/research/ai-first-fdt-research-report.en.md)
+- Source notes: [`docs/source-notes.md`](docs/source-notes.md)
+
+This repository does not claim endorsement by any referenced organization.
