@@ -8,7 +8,7 @@ SECRET_PATTERNS = [
     r'gho_[A-Za-z0-9_]+', r'sk-[A-Za-z0-9]+', r'AKIA[0-9A-Z]{16}',
     r'BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY', r'password\s*[:=]\s*[^\s]+'
 ]
-required = ['README.md', 'README.zh-Hant.md', 'README.en.md', 'README.ja.md', 'LICENSE', 'SECURITY.md']
+required = ['README.md', 'README.zh-Hant.md', 'README.zh-CN.md', 'README.en.md', 'README.ja.md', 'LICENSE', 'SECURITY.md']
 errors = []
 for rel in required:
     if not (ROOT / rel).exists():

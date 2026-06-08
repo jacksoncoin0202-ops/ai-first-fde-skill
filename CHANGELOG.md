@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.2 - Default English README and Simplified Chinese README
+
+- Changed the root `README.md` from a short language gateway into a full English default README so the GitHub landing page has complete content immediately.
+- Added `README.zh-CN.md` as a full Simplified Chinese README.
+- Updated all language selectors to include English, Traditional Chinese, Simplified Chinese, and Japanese.
+- Updated the validator to require the Simplified Chinese README.
+
 ## 0.1.1 - East Asia transformation and skill stitching expansion
 
 - Expanded English, Traditional Chinese, and Japanese README files into full standalone language pages.

@@ -24,6 +24,7 @@ Markdown または project rules を読める agent であれば利用できま�
 
 - [English](README.en.md)
 - [繁體中文](README.zh-Hant.md)
+- [简体中文](README.zh-CN.md)
 - [日本語](README.ja.md)
 
 ## なぜ必要か

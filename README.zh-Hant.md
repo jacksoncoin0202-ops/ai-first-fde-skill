@@ -24,6 +24,7 @@ cd ai-first-fde-skill
 
 - [English](README.en.md)
 - [繁體中文](README.zh-Hant.md)
+- [簡體中文](README.zh-CN.md)
 - [日本語](README.ja.md)
 
 ## 為什麼需要這套 Skill

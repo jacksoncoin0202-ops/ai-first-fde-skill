@@ -23,8 +23,9 @@ You can use this with any agent runtime that can read Markdown project rules: Cl
 ## Language
 
 - [English](README.en.md)
-- [繁體中文](README.zh-Hant.md)
-- [日本語](README.ja.md)
+- [Traditional Chinese](README.zh-Hant.md)
+- [Simplified Chinese](README.zh-CN.md)
+- [Japanese](README.ja.md)
 
 ## Why This Exists
 
