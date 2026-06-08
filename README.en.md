@@ -70,6 +70,8 @@ Read skills/ai-first-fde/SKILL.md first.
 Use the relevant ai-first-fde-* module for research, diagnostic, architecture, deployment, troubleshooting, or adoption observation work.
 ```
 
+No Python, npm, pip, Docker, compiler, or binary installer is required to use the skill. The Python validator is optional maintainer tooling only.
+
 Hermes direct install:
 
 ```bash

@@ -85,6 +85,8 @@ cd ai-first-fde-skill
 請再讀對應的 skills/ai-first-fde-* 模組。
 ```
 
+使用這套 Skill 不需要 Python、npm、pip、Docker、compiler 或 binary installer。它本身是 Markdown-only；Python validator 只給維護者和 CI 使用，終端使用者不用安裝。
+
 對 Agent 說：
 
 ```text

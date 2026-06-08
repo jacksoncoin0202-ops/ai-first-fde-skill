@@ -1,0 +1,3 @@
+# The skill itself is Markdown-only. This validator is CI/maintainer tooling,
+# so hide it from GitHub language stats to avoid showing the repo as Python.
+skills/ai-first-fde/scripts/validate_skill.py linguist-generated=true

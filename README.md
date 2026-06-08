@@ -37,6 +37,21 @@ read the matching skills/ai-first-fde-* module and skills/ai-first-fde/reference
 請再讀對應的 skills/ai-first-fde-* 模組與 skills/ai-first-fde/references/。
 ```
 
+## 🧰 No Dependency / No Build
+
+This repository is a **Markdown-only Skill Suite**. To use the skill, you do **not** need Python, npm, pip, Docker, a compiler, or a binary installer.
+
+On a normal MacBook or Windows machine:
+
+1. Download or clone the repo.
+2. Open it in any agent runtime that can read Markdown.
+3. Tell the agent to read `skills/ai-first-fde/SKILL.md`.
+4. Use the templates and references as operating guides.
+
+The small Python file in `skills/ai-first-fde/scripts/validate_skill.py` is optional maintainer / CI tooling only. It uses Python standard library only and is not required for end users.
+
+If executable helper tools are added later, they should stay optional. Prefer plain Markdown first; if a helper is truly needed, ship simple no-install binaries for macOS, Windows, and Linux instead of making the skill depend on a local Python / Node setup.
+
 ## 🧭 One-Line Positioning
 
 A skill suite that turns an AI agent into a Forward Deployed Engineer (FDE) for real enterprise AI field work:

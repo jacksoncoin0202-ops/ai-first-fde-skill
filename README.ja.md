@@ -34,6 +34,8 @@
 
 - Agent / CLI download guide: [`docs/agent-runtime-download-guide.zh-Hant.md`](docs/agent-runtime-download-guide.zh-Hant.md)
 
+この Skill の利用に Python、npm、pip、Docker、compiler、binary installer は不要です。Skill 本体は Markdown-only です。Python validator はメンテナンスと CI 用の任意ツールであり、利用者には不要です。
+
 ## 安全方針
 
 このリポジトリは公開されています。実在顧客名、内部システム URL、契約情報、認証情報、社員名、未公開の導入詳細を含めないでください。
