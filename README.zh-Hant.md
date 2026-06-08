@@ -171,28 +171,31 @@ Skill 會產出 LLM Wiki handoff plan，包含 domain taxonomy、source register
 - Rollout：只有在 KPI、使用率、風險控制和 owner ready 後才擴大；
 - Operations：定義 monitoring、support、access review、cost review、quality review、incident response、knowledge refresh。
 
-## Skill Stitching Workbench
+## Core and Optional Add-ons
 
-AI First FDE Skill 現在就是 specialist stitching 的主控檔。完整操作規則已固化在 [skills/ai-first-fde/SKILL.md](skills/ai-first-fde/SKILL.md)，agent 讀一個主 Skill 檔，就知道如何接上進階能力。
+預設 `ai-first-fde` skill 是無依賴核心。它只靠 Markdown、Mermaid、tables 和 checklists 就能運作。
 
-Workbench 不會列普通通訊或辦公工具。chat app、email、calendar、notes、spreadsheets 只視為 input sources，不是特殊依賴。只有真正提升 FDE 交付物、而且一般人未必預設安裝的能力，才會放進 stitching。
+有依賴的能力已經分開放到 [skills/ai-first-fde-addons/SKILL.md](skills/ai-first-fde-addons/SKILL.md)。不要預設安裝或啟用 add-ons。只有在使用者明確想要進階 artifact，例如 rendered diagram、knowledge graph、eval harness、security scan、slide deck 時，才使用 add-on。
 
-| FDE 階段 | Specialist capability examples | 輸出 |
+普通通訊和辦公工具不是 add-ons。chat app、email、calendar、notes、spreadsheets 只是 input sources，不是 dependencies。
+
+| FDE 階段 | Optional add-on examples | 輸出 |
 |---|---|---|
 | Research grounding | arXiv、market research、competitive analysis、deep research | Source pack、benchmark notes、public-safe brief |
 | Deep diagnostic | support-ticket triage、meeting insight extraction、enterprise AI consulting | Pain clusters、stakeholder questions、diagnostic plan |
 | Organization visualization | architecture diagram、graphify、diagramming、Figma、Excalidraw、infographic | Organization map、relationship diagram、approval route |
 | Knowledge architecture | LLM Wiki、graphify、codebase onboarding、content hash cache | Source register、taxonomy、owner matrix、contradiction log |
-| Agent runtime planning | OpenViking、agent harness、enterprise agent ops、cost-aware LLM pipeline | Runtime table、context strategy、tool boundary、cost route |
+| Agent runtime planning | agent harness、enterprise agent ops、cost-aware LLM pipeline | Runtime table、context strategy、tool boundary、cost route |
 | Evaluation and rollout | eval harness、AI regression testing、verification loop、e2e testing | Pilot gates、acceptance tests、rollout readiness |
 | Governance and safety | threat model、security review、security scan、public-safe checklist | Permission review、risk model、go / no-go gate |
 | Executive enablement | presentations、slide deck、infographic、article writing、brand voice | Executive summary、training deck、public-safe case |
 
-如果 specialist capability 不存在，Skill 會直接 fallback 到 Markdown 和 Mermaid artifact，不會強迫安裝。
+如果 add-on 不存在，核心 Skill 仍然用 Markdown 和 Mermaid 產出同一份 artifact。安裝是 optional，而且要分開處理。
 
 ## 模組
 
 - `ai-first-fde`：主控 orchestration skill
+- `ai-first-fde-addons`：有依賴的 optional add-ons，用於進階 artifacts
 - `ai-first-fde-research`：公開來源研究與 source grounding
 - `ai-first-fde-diagnostic`：客戶深度診斷
 - `ai-first-fde-architecture`：AI solution architecture
@@ -242,7 +245,7 @@ Workbench 不會列普通通訊或辦公工具。chat app、email、calendar、n
 
 Skill 本身就是 Markdown。Python validator 只給維護者和 CI 使用，普通使用者不用安裝。你只需要 clone repo，打開 Markdown，叫 agent follow 即可。
 
-如果你另外有 diagram / wiki / graph 工具，可以提高展示品質；但沒有這些工具，Skill 本體仍然可以完整運作。
+進階 diagram、wiki、graph、eval、security、deck 輸出已分開放到 optional add-on skill；它們不是 core skill 的必要依賴。
 
 ## Agent / CLI 下載指南
 

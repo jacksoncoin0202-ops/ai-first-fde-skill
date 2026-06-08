@@ -40,7 +40,8 @@ The stance is transformation, not headcount reduction. Frame AI as a way to redu
 12. Do not scale until the system has evidence of operational stability, sustained usage, measured value, and a named owner.
 13. For complex organizations, visualize before architecting: produce organization architecture, stakeholder relationship, approval route, data ownership, and escalation maps before solution design.
 14. Treat enterprise knowledge as deployment infrastructure. If knowledge is scattered, design an LLM Wiki / knowledge graph handoff before retrieval, RAG, or agent automation.
-15. Stitch adjacent skills and tools by phase. Do not load every capability at once; select the minimum useful specialist skill for research, diagramming, wiki creation, architecture, deployment, validation, or communications.
+15. Keep the core skill dependency-free. Do not require heavy runtimes, connectors, browsers, external services, or installable tools to complete the standard FDE workflow.
+16. If optional add-ons are useful, keep them separate from the core workflow and route to `ai-first-fde-addons`. Never install or invoke dependency-based add-ons by default.
 
 ## Operating loop
 
@@ -88,48 +89,17 @@ When multiple modes apply, run them in this order:
 11. Operations handoff
 12. Public-safe executive summary
 
-## Solidified specialist workbench
+## Core / add-on boundary
 
-This skill is the control file. Keep the FDE method here, and stitch only high-value specialist capabilities into the flow when they materially improve the output.
+This is the no-dependency core skill. It must work with plain Markdown, Mermaid, tables, and checklists only.
 
-Do not list ordinary communication or office tools as dependencies. Do not add common channels such as WhatsApp, email, chat apps, calendar apps, notes apps, or generic spreadsheets to the workbench. Those are input sources, not specialist capabilities.
+Do not list ordinary communication or office tools as dependencies. Common channels such as WhatsApp, email, chat apps, calendar apps, notes apps, or spreadsheets are input sources, not specialist capabilities.
 
-Only stitch a capability when it meets at least one condition:
+Do not combine dependency-based capabilities into this core skill. Heavy or installable tools belong in the optional `ai-first-fde-addons` skill and must be activated only when the user asks for them or when the requested artifact cannot be produced credibly with the core method.
 
-- it produces a hard-to-create artifact, such as an architecture diagram, knowledge graph, LLM Wiki, eval harness, threat model, deployment gate, or executive deck;
-- most users are unlikely to have it installed by default;
-- it changes the quality of the FDE deliverable, not just the formatting;
-- it gives the agent a reusable operating pattern that is better than a one-off prompt.
+### Core fallback artifacts
 
-### Stitching protocol
-
-Before selecting a specialist capability:
-
-1. Identify the current FDE phase.
-2. Check whether the specialist skill or tool is actually available in the current runtime.
-3. Select at most two specialist capabilities for the phase.
-4. Produce the FDE artifact.
-5. If the capability is unavailable, produce the same artifact in Markdown and Mermaid.
-6. Do not ask the user to install extra tools unless the requested artifact cannot be produced credibly without them.
-7. Return to the FDE operating loop after the specialist output is created.
-
-### Specialist capability packs
-
-| FDE phase | Specialist capability to stitch | Use only when | FDE artifact |
-|---|---|---|---|
-| Research grounding | arxiv, market-research, competitive-ads-extractor, deep-research | public evidence, academic references, policy context, or competitor signals are needed | Source pack, industry constraints, benchmark notes, citation-safe brief |
-| Deep diagnostic | support-ticket-triage, meeting-insights-analyzer, enterprise-ai-consulting | the user provides tickets, meeting notes, support logs, or vague enterprise pain | Pain clusters, diagnostic interview plan, stakeholder question bank |
-| Organization visualization | architecture-diagram, diagramming, graphify, excalidraw, figma, baoyu-infographic | there are many departments, handoffs, approvers, informal blockers, or unclear owners | Organization Architecture Map, Relationship Diagram, Approval Route, Escalation Map |
-| Knowledge architecture | llm-wiki, graphify, codebase-onboarding, content-hash-cache-pattern | knowledge is scattered across files, tickets, SOPs, PDFs, chats, drives, or individual memory | LLM Wiki schema, source register, taxonomy, owner matrix, contradiction log |
-| Agent runtime planning | OpenViking, agent-harness-construction, enterprise-agent-ops, cost-aware-llm-pipeline | the client must choose or operate Claude Code, Codex, Cursor, Hermes, OpenRouter, OpenCode, or multi-agent runtimes | Runtime decision table, context strategy, tool boundary, cost / latency route |
-| Evaluation and rollout gates | eval-harness, ai-regression-testing, verification-loop, e2e-testing | a PoC must become a measured pilot or rollout | Eval plan, acceptance gates, regression checks, rollout readiness checklist |
-| Governance and safety | security-threat-model, security-review, security-scan, public-release-safety, careful | confidential data, permissions, regulated workflows, public release, or security review are involved | Threat model, permission review, public-safe boundary, go / no-go gate |
-| Technical architecture | cost-aware-llm-pipeline, api-design, database-migrations, docker-patterns, backend-patterns | the output must become an implementation plan, not just a business memo | API contract, data model, integration plan, logging and audit plan |
-| Executive enablement | presentations, baoyu-slide-deck, baoyu-infographic, article-writing, brand-voice | leadership needs a deck, README, case study, training material, or public-safe narrative | Executive summary, training deck, launch brief, public-safe case rewrite |
-
-### Default fallback artifacts
-
-If specialist tools are unavailable, still produce these using plain Markdown:
+Always be able to produce these without installing anything:
 
 - Organization map: Mermaid diagram plus stakeholder table.
 - Knowledge map: source register, taxonomy, owner matrix, permission matrix, contradiction log.
@@ -138,14 +108,24 @@ If specialist tools are unavailable, still produce these using plain Markdown:
 - Security plan: data classes, permissions, audit logs, approval gates, public-safe exclusions.
 - Executive material: concise narrative, decision memo, training outline, and rollout FAQ.
 
-### Stop conditions
+### Add-on routing rule
 
-Stop stitching and return to the core FDE loop if:
+Use `ai-first-fde-addons` only after the core artifact shape is clear.
 
-- the specialist capability adds presentation polish but no operational evidence;
+1. Produce the core FDE artifact first.
+2. Decide whether an optional add-on would materially improve the output.
+3. Check whether the add-on is already installed or available.
+4. If it is not available, do not block the work. Continue with Markdown and Mermaid.
+5. Ask for installation only when the user explicitly wants that add-on output.
+
+### Stop conditions for add-ons
+
+Do not use an add-on if:
+
+- it adds presentation polish but no operational evidence;
 - it introduces dependencies the user did not ask for;
+- it is heavier than the requested artifact justifies;
 - it risks exposing private client details;
-- it turns an operator guide into abstract consulting language;
 - it distracts from the next decision, owner, KPI, or rollout gate.
 
 ## Required final delivery package

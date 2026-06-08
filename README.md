@@ -171,28 +171,31 @@ The skill separates proof from deployment:
 - Rollout: expand only after measured value, repeated usage, and owner readiness.
 - Operations: define monitoring, support, access review, cost review, quality review, incident response, and knowledge refresh.
 
-## Skill Stitching Workbench
+## Core and Optional Add-ons
 
-AI First FDE Skill is now the control file for specialist stitching. The full operating rules live inside [skills/ai-first-fde/SKILL.md](skills/ai-first-fde/SKILL.md), so an agent can load one skill file and still know how to connect advanced capabilities.
+The default `ai-first-fde` skill is dependency-free. It works with Markdown, Mermaid, tables, and checklists only.
 
-The workbench does not list ordinary communication or office tools. Channels such as chat apps, email, calendars, notes, and spreadsheets are treated as input sources, not special dependencies. The skill only stitches capabilities that materially improve the FDE deliverable and are not usually installed by default.
+Dependency-based capabilities are separated into [skills/ai-first-fde-addons/SKILL.md](skills/ai-first-fde-addons/SKILL.md). Do not install or invoke those add-ons by default. Use them only when the user explicitly wants advanced artifacts such as rendered diagrams, knowledge graphs, eval harnesses, security scans, or slide decks.
 
-| FDE phase | Specialist capability examples | Output |
+Ordinary communication and office tools are not add-ons. Channels such as chat apps, email, calendars, notes, and spreadsheets are input sources, not dependencies.
+
+| FDE phase | Optional add-on examples | Output |
 |---|---|---|
 | Research grounding | arXiv, market research, competitive analysis, deep research | Source pack, benchmark notes, public-safe brief |
 | Deep diagnostic | support-ticket triage, meeting insight extraction, enterprise AI consulting | Pain clusters, stakeholder questions, diagnostic plan |
 | Organization visualization | architecture diagram, graphify, diagramming, Figma, Excalidraw, infographic | Organization map, relationship diagram, approval route |
 | Knowledge architecture | LLM Wiki, graphify, codebase onboarding, content hash cache | Source register, taxonomy, owner matrix, contradiction log |
-| Agent runtime planning | OpenViking, agent harness, enterprise agent ops, cost-aware LLM pipeline | Runtime table, context strategy, tool boundary, cost route |
+| Agent runtime planning | agent harness, enterprise agent ops, cost-aware LLM pipeline | Runtime table, context strategy, tool boundary, cost route |
 | Evaluation and rollout | eval harness, AI regression testing, verification loop, e2e testing | Pilot gates, acceptance tests, rollout readiness |
 | Governance and safety | threat model, security review, security scan, public-safe checklist | Permission review, risk model, go / no-go gate |
 | Executive enablement | presentations, slide deck, infographic, article writing, brand voice | Executive summary, training deck, public-safe case |
 
-If a specialist capability is unavailable, the skill falls back to Markdown and Mermaid artifacts instead of forcing installation.
+If an add-on is unavailable, the core skill still produces the artifact in Markdown and Mermaid. Installation is optional and separate.
 
 ## Modules
 
 - `ai-first-fde`: main orchestration skill
+- `ai-first-fde-addons`: optional dependency-based add-ons for advanced artifacts
 - `ai-first-fde-research`: source-grounded research
 - `ai-first-fde-diagnostic`: client diagnostic interview
 - `ai-first-fde-architecture`: AI solution architecture
@@ -242,7 +245,7 @@ You do not need Python, npm, pip, Docker, a compiler, or a binary installer to u
 
 The skill itself is Markdown. The Python validator is optional maintainer and CI tooling only. A normal user can clone the repo, open the Markdown files, and tell any capable agent to follow them.
 
-Optional diagram or wiki tools can improve presentation quality, but they are not required for the core skill to work.
+Advanced diagram, wiki, graph, eval, security, and deck outputs live in the separate optional add-on skill. They are not required for the core skill to work.
 
 ## Runtime Download Guide
 

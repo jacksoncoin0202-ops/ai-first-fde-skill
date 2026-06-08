@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.4 - Split dependency add-ons from no-dependency core
+
+- Added `ai-first-fde-addons` as a separate optional skill for dependency-based advanced outputs.
+- Kept `ai-first-fde` as the no-dependency Markdown / Mermaid / table / checklist core.
+- Removed heavyweight runtime references from the FDE stitching path because they are not directly required.
+- Updated README workbench tables to separate core usage from optional add-ons.
+- Added the add-on skill to `skills.sh.json`.
+
 ## 0.1.3 - Solidified specialist stitching into main skill
 
 - Moved the specialist stitching workbench into `skills/ai-first-fde/SKILL.md` so the main skill file is self-contained for personal and agent runtime use.

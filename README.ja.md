@@ -171,28 +171,31 @@ Skill は LLM Wiki handoff plan を作成します。内容には domain taxonom
 - Rollout：KPI、利用率、リスク制御、owner readiness が揃ってから拡大する。
 - Operations：monitoring、support、access review、cost review、quality review、incident response、knowledge refresh を定義する。
 
-## Skill Stitching Workbench
+## Core and Optional Add-ons
 
-AI First FDE Skill は、specialist stitching の control file です。完全な operating rules は [skills/ai-first-fde/SKILL.md](skills/ai-first-fde/SKILL.md) に固化されています。Agent はこの主 Skill ファイルを読むだけで、advanced capabilities をどう接続するか理解できます。
+Default の `ai-first-fde` skill は dependency-free core です。Markdown、Mermaid、tables、checklists だけで動作します。
 
-Workbench は普通の communication / office tools を列挙しません。chat apps、email、calendar、notes、spreadsheets は input sources であり、special dependencies ではありません。FDE deliverable を明確に強化し、通常は標準インストールされていない capability だけを stitching 対象にします。
+Dependency-based capabilities は [skills/ai-first-fde-addons/SKILL.md](skills/ai-first-fde-addons/SKILL.md) に分離されています。Add-ons を default で install / invoke しないでください。Rendered diagram、knowledge graph、eval harness、security scan、slide deck などの advanced artifact をユーザーが明確に求めた場合だけ使います。
 
-| FDE phase | Specialist capability examples | Output |
+普通の communication / office tools は add-ons ではありません。chat apps、email、calendar、notes、spreadsheets は input sources であり、dependencies ではありません。
+
+| FDE phase | Optional add-on examples | Output |
 |---|---|---|
 | Research grounding | arXiv、market research、competitive analysis、deep research | Source pack、benchmark notes、public-safe brief |
 | Deep diagnostic | support-ticket triage、meeting insight extraction、enterprise AI consulting | Pain clusters、stakeholder questions、diagnostic plan |
 | Organization visualization | architecture diagram、graphify、diagramming、Figma、Excalidraw、infographic | Organization map、relationship diagram、approval route |
 | Knowledge architecture | LLM Wiki、graphify、codebase onboarding、content hash cache | Source register、taxonomy、owner matrix、contradiction log |
-| Agent runtime planning | OpenViking、agent harness、enterprise agent ops、cost-aware LLM pipeline | Runtime table、context strategy、tool boundary、cost route |
+| Agent runtime planning | agent harness、enterprise agent ops、cost-aware LLM pipeline | Runtime table、context strategy、tool boundary、cost route |
 | Evaluation and rollout | eval harness、AI regression testing、verification loop、e2e testing | Pilot gates、acceptance tests、rollout readiness |
 | Governance and safety | threat model、security review、security scan、public-safe checklist | Permission review、risk model、go / no-go gate |
 | Executive enablement | presentations、slide deck、infographic、article writing、brand voice | Executive summary、training deck、public-safe case |
 
-Specialist capability がない場合、Skill はインストールを強制せず、Markdown と Mermaid artifact に fallback します。
+Add-on がない場合でも、core skill は Markdown と Mermaid で同じ artifact を作ります。Install は optional であり、分離して扱います。
 
 ## Modules
 
 - `ai-first-fde`：main orchestration skill
+- `ai-first-fde-addons`：advanced artifacts 用の optional dependency-based add-ons
 - `ai-first-fde-research`：公開情報と根拠確認
 - `ai-first-fde-diagnostic`：顧客深掘り診断
 - `ai-first-fde-architecture`：AI solution architecture
@@ -242,7 +245,7 @@ Specialist capability がない場合、Skill はインストールを強制せ�
 
 Skill 本体は Markdown です。Python validator はメンテナンスと CI 用の任意ツールであり、通常の利用者には不要です。repo を clone し、Markdown を開き、agent に従わせるだけで使えます。
 
-diagram / wiki / graph tools がある場合は表現力を高められますが、Skill 本体の動作には必須ではありません。
+Advanced diagram、wiki、graph、eval、security、deck outputs は separate optional add-on skill に分離されています。Core skill の必須依存関係ではありません。
 
 ## Agent / CLI Download Guide
 
