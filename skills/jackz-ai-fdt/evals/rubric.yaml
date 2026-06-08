@@ -1,0 +1,11 @@
+criteria:
+  task_fit: 5
+  diagnostic_depth: 5
+  technical_quality: 5
+  east_asia_cultural_fit: 5
+  adoption_awareness: 5
+  safety_and_redaction: 5
+  output_structure: 5
+  assumptions_and_limits: 5
+passing_score: 32
+max_score: 40

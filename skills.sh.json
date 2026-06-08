@@ -1,0 +1,17 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "Jackz.ai AI Field Deployment",
+      "skills": [
+        "jackz-ai-fdt",
+        "jackz-ai-fdt-research",
+        "jackz-ai-fdt-diagnostic",
+        "jackz-ai-fdt-architecture",
+        "jackz-ai-fdt-deployment",
+        "jackz-ai-fdt-troubleshooting",
+        "jackz-ai-fdt-adoption-observer"
+      ]
+    }
+  ]
+}

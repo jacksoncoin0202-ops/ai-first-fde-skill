@@ -1,0 +1,36 @@
+{
+  "evals": [
+    {
+      "name": "vague-ai-request",
+      "prompt": "cases/001-vague-ai-request.txt",
+      "expectations": [
+        {
+          "type": "string_match",
+          "needle": "workflow"
+        },
+        {
+          "type": "string_match",
+          "needle": "data"
+        },
+        {
+          "type": "string_match",
+          "needle": "permission"
+        }
+      ]
+    },
+    {
+      "name": "public-case-redaction",
+      "prompt": "cases/006-public-case-redaction.txt",
+      "expectations": [
+        {
+          "type": "string_match",
+          "needle": "anonym"
+        },
+        {
+          "type": "string_exclusion",
+          "needle": "API key"
+        }
+      ]
+    }
+  ]
+}
