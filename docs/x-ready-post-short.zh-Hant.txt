@@ -1,0 +1,7 @@
+真正有用的 AI Skill，不是顧問口吻。
+
+而是把現場方法封裝進 agent：先問清流程、資料、權限，再做架構、PoC、排障與採用觀察。
+
+Jackz.ai FDT Skill Suite，專為東亞企業導入 AI 而設。
+
+https://github.com/jacksoncoin0202-ops/jackz-ai-fdt-skill

@@ -6,9 +6,17 @@ This is not a generic AI consulting prompt. It is an operating system for front-
 
 ## Languages
 
+Full README files:
+
 - 繁體中文：[`README.zh-Hant.md`](README.zh-Hant.md)
 - English: [`README.en.md`](README.en.md)
 - 日本語：[`README.ja.md`](README.ja.md)
+
+Short public descriptions for sharing on GitHub / X / docs:
+
+- 繁體中文：[`docs/descriptions/zh-Hant.md`](docs/descriptions/zh-Hant.md)
+- English: [`docs/descriptions/en.md`](docs/descriptions/en.md)
+- 日本語：[`docs/descriptions/ja.md`](docs/descriptions/ja.md)
 
 ## Install with Hermes
 

@@ -1,0 +1,68 @@
+AI 導入最常見的失敗，不是模型不夠強。
+
+是現場根本沒有被看懂。
+
+很多公司導入 AI，一開始就問：
+「用哪個模型？」
+「要不要接 RAG？」
+「要不要做 chatbot？」
+
+但真正會卡住的，通常不是這些。
+
+真正的問題是：
+
+誰每天在用這個流程？
+資料在哪裡？
+權限誰負責？
+錯了誰背鍋？
+哪一步一定要人審？
+主管要怎樣才敢放行？
+員工為什麼表面說好、實際不用？
+
+尤其在日本、台灣、香港、韓國、新加坡這類東亞企業環境，AI 導入不是單純的 SaaS rollout。
+
+你要處理的是層級、共識、面子、風險迴避、資深員工的默會知識、非正式權力中心，以及「沒有人想第一個承認流程其實有問題」這件事。
+
+所以我做了一套 Jackz.ai AI Field Deployment Technician Skill Suite。
+
+它不是普通 prompt。
+
+它是把一個 AI 前線部署工程師的工作方式，封裝成 Hermes / Claude-style Skill：
+
+先做 research grounding，確認產業、流程、限制與公開資料；
+再做 deep diagnostic interview，把業務、資料、權限、風險、KPI 問清楚；
+接著輸出 problem map、use case priority、solution architecture、PoC / pilot / rollout plan；
+最後還包含 troubleshooting、adoption observation、governance 和 public-safe delivery docs。
+
+我想做的不是「叫 AI 給企業一些建議」。
+
+而是讓 agent 在被觸發時，自動進入 FDT 模式：
+
+不亂推薦工具。
+不跳過現場問診。
+不把 AI 導入講成抽象願景。
+不把東亞企業文化當成西方 SaaS playbook 的註腳。
+
+它會逼 agent 回到現場：
+workflow、owner、data source、permission、failure mode、human approval、rollback、ops owner、adoption risk、validation metric。
+
+如果 AI agent 真的要走進企業，它不能只會寫 code、摘要文件、做漂亮簡報。
+
+它需要懂得怎樣在真實組織裡部署、驗證、排障、取得採用，並且保護客戶資料與內部邊界。
+
+這套 Skill Suite 目前包含：
+
+- jackz-ai-fdt：主控 FDT operating mode
+- jackz-ai-fdt-research：source-grounded discovery
+- jackz-ai-fdt-diagnostic：深度問診
+- jackz-ai-fdt-architecture：技術方案架構
+- jackz-ai-fdt-deployment：PoC / pilot / rollout
+- jackz-ai-fdt-troubleshooting：現場排障
+- jackz-ai-fdt-adoption-observer：東亞企業採用阻力觀察
+
+開源了。
+
+如果你正在做 AI consulting、enterprise AI、agent workflow、Hermes / Claude Skills，或者正在把 AI 帶進真實公司流程，可以直接拿去改。
+
+GitHub repo：
+https://github.com/jacksoncoin0202-ops/jackz-ai-fdt-skill
