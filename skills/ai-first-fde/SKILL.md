@@ -88,23 +88,65 @@ When multiple modes apply, run them in this order:
 11. Operations handoff
 12. Public-safe executive summary
 
-## Adjacent skill stitching
+## Solidified specialist workbench
 
-When the runtime has additional skills, stitch them into this FDE workflow by phase. Use them as optional accelerators; never make the core FDE method depend on a specific local installation.
+This skill is the control file. Keep the FDE method here, and stitch only high-value specialist capabilities into the flow when they materially improve the output.
 
-| Phase | Useful adjacent skill types | Use them to produce |
-|---|---|---|
-| Research grounding | browse, web search, arxiv, market-research, competitive-ads-extractor, content-research-writer | Source pack, industry constraints, competitor patterns, benchmark notes |
-| Deep diagnostic | meeting-notes-and-actions, meeting-insights-analyzer, support-ticket-triage, enterprise-ai-consulting | Interview notes, pain clusters, ticket evidence, stakeholder questions |
-| Organization visualization | architecture-diagram, diagramming, graphify, excalidraw, figma, baoyu-infographic | Organization architecture map, relationship graph, handoff map, approval route |
-| Knowledge architecture | llm-wiki, graphify, codebase-onboarding, apple-notes, documents, spreadsheets | LLM Wiki structure, source register, taxonomy, owner matrix, contradiction log |
-| Agent/runtime planning | codex, claude-code, hermes-agent, openviking workflow, connect-apps, agent-harness-construction, enterprise-agent-ops | Runtime choice, context strategy, agent operating model, tool boundary |
-| Engineering architecture | api-design, backend-patterns, frontend-patterns, database-migrations, docker-patterns, cost-aware-llm-pipeline | Integration design, API contract, database plan, cost/latency route |
-| Deployment and validation | deployment-patterns, cloudflare-deploy, vercel-deploy, netlify-deploy, e2e-testing, eval-harness, ai-regression-testing | Pilot gates, deployment runbook, evals, smoke tests, regression checks |
-| Governance and safety | security-review, security-scan, security-threat-model, careful, validation, audit | Risk model, permission review, threat model, public-safe boundary |
-| Documentation and selling | article-writing, doc, presentations, baoyu-slide-deck, brand-voice, internal-comms, baoyu-translate | README, executive summary, training deck, internal announcement, public case |
+Do not list ordinary communication or office tools as dependencies. Do not add common channels such as WhatsApp, email, chat apps, calendar apps, notes apps, or generic spreadsheets to the workbench. Those are input sources, not specialist capabilities.
 
-Default rule: if the user asks for a stronger or more complete deliverable, first check whether one of these adjacent skill types can turn the FDE artifact into a diagram, wiki, deck, evaluation, or operational runbook.
+Only stitch a capability when it meets at least one condition:
+
+- it produces a hard-to-create artifact, such as an architecture diagram, knowledge graph, LLM Wiki, eval harness, threat model, deployment gate, or executive deck;
+- most users are unlikely to have it installed by default;
+- it changes the quality of the FDE deliverable, not just the formatting;
+- it gives the agent a reusable operating pattern that is better than a one-off prompt.
+
+### Stitching protocol
+
+Before selecting a specialist capability:
+
+1. Identify the current FDE phase.
+2. Check whether the specialist skill or tool is actually available in the current runtime.
+3. Select at most two specialist capabilities for the phase.
+4. Produce the FDE artifact.
+5. If the capability is unavailable, produce the same artifact in Markdown and Mermaid.
+6. Do not ask the user to install extra tools unless the requested artifact cannot be produced credibly without them.
+7. Return to the FDE operating loop after the specialist output is created.
+
+### Specialist capability packs
+
+| FDE phase | Specialist capability to stitch | Use only when | FDE artifact |
+|---|---|---|---|
+| Research grounding | arxiv, market-research, competitive-ads-extractor, deep-research | public evidence, academic references, policy context, or competitor signals are needed | Source pack, industry constraints, benchmark notes, citation-safe brief |
+| Deep diagnostic | support-ticket-triage, meeting-insights-analyzer, enterprise-ai-consulting | the user provides tickets, meeting notes, support logs, or vague enterprise pain | Pain clusters, diagnostic interview plan, stakeholder question bank |
+| Organization visualization | architecture-diagram, diagramming, graphify, excalidraw, figma, baoyu-infographic | there are many departments, handoffs, approvers, informal blockers, or unclear owners | Organization Architecture Map, Relationship Diagram, Approval Route, Escalation Map |
+| Knowledge architecture | llm-wiki, graphify, codebase-onboarding, content-hash-cache-pattern | knowledge is scattered across files, tickets, SOPs, PDFs, chats, drives, or individual memory | LLM Wiki schema, source register, taxonomy, owner matrix, contradiction log |
+| Agent runtime planning | OpenViking, agent-harness-construction, enterprise-agent-ops, cost-aware-llm-pipeline | the client must choose or operate Claude Code, Codex, Cursor, Hermes, OpenRouter, OpenCode, or multi-agent runtimes | Runtime decision table, context strategy, tool boundary, cost / latency route |
+| Evaluation and rollout gates | eval-harness, ai-regression-testing, verification-loop, e2e-testing | a PoC must become a measured pilot or rollout | Eval plan, acceptance gates, regression checks, rollout readiness checklist |
+| Governance and safety | security-threat-model, security-review, security-scan, public-release-safety, careful | confidential data, permissions, regulated workflows, public release, or security review are involved | Threat model, permission review, public-safe boundary, go / no-go gate |
+| Technical architecture | cost-aware-llm-pipeline, api-design, database-migrations, docker-patterns, backend-patterns | the output must become an implementation plan, not just a business memo | API contract, data model, integration plan, logging and audit plan |
+| Executive enablement | presentations, baoyu-slide-deck, baoyu-infographic, article-writing, brand-voice | leadership needs a deck, README, case study, training material, or public-safe narrative | Executive summary, training deck, launch brief, public-safe case rewrite |
+
+### Default fallback artifacts
+
+If specialist tools are unavailable, still produce these using plain Markdown:
+
+- Organization map: Mermaid diagram plus stakeholder table.
+- Knowledge map: source register, taxonomy, owner matrix, permission matrix, contradiction log.
+- Runtime plan: decision table with cost, auth method, context strategy, and operational owner.
+- Evaluation plan: test cases, pass criteria, stop / continue / expand gate.
+- Security plan: data classes, permissions, audit logs, approval gates, public-safe exclusions.
+- Executive material: concise narrative, decision memo, training outline, and rollout FAQ.
+
+### Stop conditions
+
+Stop stitching and return to the core FDE loop if:
+
+- the specialist capability adds presentation polish but no operational evidence;
+- it introduces dependencies the user did not ask for;
+- it risks exposing private client details;
+- it turns an operator guide into abstract consulting language;
+- it distracts from the next decision, owner, KPI, or rollout gate.
 
 ## Required final delivery package
 

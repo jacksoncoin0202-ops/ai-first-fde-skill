@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.3 - Solidified specialist stitching into main skill
+
+- Moved the specialist stitching workbench into `skills/ai-first-fde/SKILL.md` so the main skill file is self-contained for personal and agent runtime use.
+- Removed the separate adjacent stitching reference file to avoid splitting the operating rules across multiple files.
+- Narrowed stitching guidance to specialist capabilities that materially improve FDE deliverables and are not usually installed by default.
+- Clarified that ordinary communication and office tools are input sources, not specialist dependencies.
+- Updated all README language pages to summarize the specialist workbench while pointing agents to the main skill file for the full rules.
+
 ## 0.1.2 - Default English README and Simplified Chinese README
 
 - Changed the root `README.md` from a short language gateway into a full English default README so the GitHub landing page has complete content immediately.

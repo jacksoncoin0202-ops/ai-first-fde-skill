@@ -173,25 +173,22 @@ Skill は LLM Wiki handoff plan を作成します。内容には domain taxonom
 
 ## Skill Stitching Workbench
 
-AI First FDE Skill は、agent workspace 全体の control layer として使えます。ローカル環境に追加 skills がある場合、それらを専門エンジンとして FDE operating loop に接続します。
+AI First FDE Skill は、specialist stitching の control file です。完全な operating rules は [skills/ai-first-fde/SKILL.md](skills/ai-first-fde/SKILL.md) に固化されています。Agent はこの主 Skill ファイルを読むだけで、advanced capabilities をどう接続するか理解できます。
 
-考え方はシンプルです。FDE method を背骨にし、必要な phase で適切な specialist skill を接続します。
+Workbench は普通の communication / office tools を列挙しません。chat apps、email、calendar、notes、spreadsheets は input sources であり、special dependencies ではありません。FDE deliverable を明確に強化し、通常は標準インストールされていない capability だけを stitching 対象にします。
 
-| FDE phase | Adjacent skill family | Upgrade |
+| FDE phase | Specialist capability examples | Output |
 |---|---|---|
-| Research grounding | browse、search、arXiv、market research、competitive analysis | 曖昧な主張を source-grounded context に変える。 |
-| Deep diagnostic | meeting analysis、ticket triage、enterprise consulting、spreadsheet analysis | interview、ticket、support log を pain clusters に変える。 |
-| Organization visualization | architecture diagram、diagramming、graphify、Figma、Excalidraw、infographic | 組織構造、影響力、handoff を可視化する。 |
-| Knowledge architecture | LLM Wiki、graphify、document processing、notes、spreadsheets | 分散ナレッジを保守可能な source-of-truth system に変える。 |
-| Agent runtime planning | Codex、Claude Code、Hermes、OpenViking、OpenRouter、agent harness、eval harness | runtime selection を agent operating model に変える。 |
-| Technical architecture | API design、backend、frontend、database、Docker、security patterns | 業務設計を実装可能な technical architecture に変える。 |
-| Deployment validation | deployment patterns、e2e testing、regression testing、verification loop | pilot を controlled rollout gates に変える。 |
-| Governance and safety | security review、threat model、audit、public-safe checklist | data、permission、compliance、public material を守る。 |
-| Documentation and enablement | article writing、docs、presentations、internal communications、translation | deployment output を executive summary、training、README、public-safe case に変える。 |
+| Research grounding | arXiv、market research、competitive analysis、deep research | Source pack、benchmark notes、public-safe brief |
+| Deep diagnostic | support-ticket triage、meeting insight extraction、enterprise AI consulting | Pain clusters、stakeholder questions、diagnostic plan |
+| Organization visualization | architecture diagram、graphify、diagramming、Figma、Excalidraw、infographic | Organization map、relationship diagram、approval route |
+| Knowledge architecture | LLM Wiki、graphify、codebase onboarding、content hash cache | Source register、taxonomy、owner matrix、contradiction log |
+| Agent runtime planning | OpenViking、agent harness、enterprise agent ops、cost-aware LLM pipeline | Runtime table、context strategy、tool boundary、cost route |
+| Evaluation and rollout | eval harness、AI regression testing、verification loop、e2e testing | Pilot gates、acceptance tests、rollout readiness |
+| Governance and safety | threat model、security review、security scan、public-safe checklist | Permission review、risk model、go / no-go gate |
+| Executive enablement | presentations、slide deck、infographic、article writing、brand voice | Executive summary、training deck、public-safe case |
 
-これにより、単独の prompt ではなく、企業 AI 導入の workbench として見せることができます。利用者はすべての specialist tool を理解する必要はありません。FDE agent が deliverable に応じて適切な skill を選びます。
-
-Default rule：品質向上のために stitching する。ただし依存関係を無駄に増やさない。隣接 tool がない場合でも、Markdown と Mermaid で同じ artifact を出力します。
+Specialist capability がない場合、Skill はインストールを強制せず、Markdown と Mermaid artifact に fallback します。
 
 ## Modules
 

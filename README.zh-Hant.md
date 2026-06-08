@@ -173,25 +173,22 @@ Skill 會產出 LLM Wiki handoff plan，包含 domain taxonomy、source register
 
 ## Skill Stitching Workbench
 
-AI First FDE Skill 可以作為整個 agent workspace 的主控層。如果本機有其他 skills，就把它們當成專門引擎，按階段接入 FDE operating loop。
+AI First FDE Skill 現在就是 specialist stitching 的主控檔。完整操作規則已固化在 [skills/ai-first-fde/SKILL.md](skills/ai-first-fde/SKILL.md)，agent 讀一個主 Skill 檔，就知道如何接上進階能力。
 
-核心概念很簡單：FDE 方法是主骨架，其他 skill 是按需要接上的專業能力。
+Workbench 不會列普通通訊或辦公工具。chat app、email、calendar、notes、spreadsheets 只視為 input sources，不是特殊依賴。只有真正提升 FDE 交付物、而且一般人未必預設安裝的能力，才會放進 stitching。
 
-| FDE 階段 | 可縫合的 skill family | 升級效果 |
+| FDE 階段 | Specialist capability examples | 輸出 |
 |---|---|---|
-| Research grounding | browse、search、arXiv、market research、competitive analysis | 把模糊說法變成有來源的背景資料。 |
-| Deep diagnostic | meeting analysis、ticket triage、enterprise consulting、spreadsheet analysis | 把訪談、ticket、support log 變成 pain clusters。 |
-| Organization visualization | architecture diagram、diagramming、graphify、Figma、Excalidraw、infographic | 把組織架構、影響力、handoff 變成可視化地圖。 |
-| Knowledge architecture | LLM Wiki、graphify、document processing、notes、spreadsheets | 把分散知識變成可維護的 source-of-truth system。 |
-| Agent runtime planning | Codex、Claude Code、Hermes、OpenViking、OpenRouter、agent harness、eval harness | 把 runtime 選型變成可運作的 agent operating model。 |
-| Technical architecture | API design、backend、frontend、database、Docker、security patterns | 把流程設計變成可實作的技術架構。 |
-| Deployment validation | deployment patterns、e2e testing、regression testing、verification loop | 把 pilot 變成受控 rollout gates。 |
-| Governance and safety | security review、threat model、audit、public-safe checklist | 保護資料、權限、合規和公開內容安全。 |
-| Documentation and enablement | article writing、docs、presentations、internal communications、translation | 把部署成果變成 executive summary、training、README、public-safe case。 |
+| Research grounding | arXiv、market research、competitive analysis、deep research | Source pack、benchmark notes、public-safe brief |
+| Deep diagnostic | support-ticket triage、meeting insight extraction、enterprise AI consulting | Pain clusters、stakeholder questions、diagnostic plan |
+| Organization visualization | architecture diagram、graphify、diagramming、Figma、Excalidraw、infographic | Organization map、relationship diagram、approval route |
+| Knowledge architecture | LLM Wiki、graphify、codebase onboarding、content hash cache | Source register、taxonomy、owner matrix、contradiction log |
+| Agent runtime planning | OpenViking、agent harness、enterprise agent ops、cost-aware LLM pipeline | Runtime table、context strategy、tool boundary、cost route |
+| Evaluation and rollout | eval harness、AI regression testing、verification loop、e2e testing | Pilot gates、acceptance tests、rollout readiness |
+| Governance and safety | threat model、security review、security scan、public-safe checklist | Permission review、risk model、go / no-go gate |
+| Executive enablement | presentations、slide deck、infographic、article writing、brand voice | Executive summary、training deck、public-safe case |
 
-這樣使用者看到的不是一個單薄 prompt，而是一套企業 AI 部署工作台。使用者不需要理解每個 specialist tool；FDE agent 會根據交付物需要選擇合適 skill。
-
-預設規則：為了交付品質而縫合，不為了炫技而增加依賴。如果相鄰工具不存在，就用 Markdown 和 Mermaid 產出同一份 artifact。
+如果 specialist capability 不存在，Skill 會直接 fallback 到 Markdown 和 Mermaid artifact，不會強迫安裝。
 
 ## 模組
 

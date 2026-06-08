@@ -173,25 +173,22 @@ The skill separates proof from deployment:
 
 ## Skill Stitching Workbench
 
-AI First FDE Skill is designed to act as the control layer for a larger agent workspace. If your local environment has additional skills, use them as specialist engines inside the FDE operating loop.
+AI First FDE Skill is now the control file for specialist stitching. The full operating rules live inside [skills/ai-first-fde/SKILL.md](skills/ai-first-fde/SKILL.md), so an agent can load one skill file and still know how to connect advanced capabilities.
 
-The idea is simple: keep the FDE method as the spine, then attach the right specialist skill at the right phase.
+The workbench does not list ordinary communication or office tools. Channels such as chat apps, email, calendars, notes, and spreadsheets are treated as input sources, not special dependencies. The skill only stitches capabilities that materially improve the FDE deliverable and are not usually installed by default.
 
-| FDE phase | Adjacent skill family | What it upgrades |
+| FDE phase | Specialist capability examples | Output |
 |---|---|---|
-| Research grounding | browse, search, arXiv, market research, competitive analysis | Turns vague claims into sourced context. |
-| Deep diagnostic | meeting analysis, ticket triage, enterprise consulting, spreadsheet analysis | Turns interviews and support logs into pain clusters. |
-| Organization visualization | architecture diagram, diagramming, graphify, Figma, Excalidraw, infographic | Turns org structure and influence into visible maps. |
-| Knowledge architecture | LLM Wiki, graphify, document processing, notes, spreadsheets | Turns scattered knowledge into a maintainable source-of-truth system. |
-| Agent runtime planning | Codex, Claude Code, Hermes, OpenViking, OpenRouter, agent harness, eval harness | Turns runtime choice into an operating model. |
-| Technical architecture | API design, backend, frontend, database, Docker, security patterns | Turns workflow design into implementable architecture. |
-| Deployment validation | deployment patterns, e2e testing, regression testing, verification loop | Turns pilots into controlled rollout gates. |
-| Governance and safety | security review, threat model, audit, public-safe checklist | Keeps data, permissions, and public material safe. |
-| Documentation and enablement | article writing, docs, presentations, internal communications, translation | Turns deployment work into executive summaries, training, README, and public-safe cases. |
+| Research grounding | arXiv, market research, competitive analysis, deep research | Source pack, benchmark notes, public-safe brief |
+| Deep diagnostic | support-ticket triage, meeting insight extraction, enterprise AI consulting | Pain clusters, stakeholder questions, diagnostic plan |
+| Organization visualization | architecture diagram, graphify, diagramming, Figma, Excalidraw, infographic | Organization map, relationship diagram, approval route |
+| Knowledge architecture | LLM Wiki, graphify, codebase onboarding, content hash cache | Source register, taxonomy, owner matrix, contradiction log |
+| Agent runtime planning | OpenViking, agent harness, enterprise agent ops, cost-aware LLM pipeline | Runtime table, context strategy, tool boundary, cost route |
+| Evaluation and rollout | eval harness, AI regression testing, verification loop, e2e testing | Pilot gates, acceptance tests, rollout readiness |
+| Governance and safety | threat model, security review, security scan, public-safe checklist | Permission review, risk model, go / no-go gate |
+| Executive enablement | presentations, slide deck, infographic, article writing, brand voice | Executive summary, training deck, public-safe case |
 
-This makes the skill feel like an enterprise AI deployment workbench rather than a single prompt. The user does not need to understand every specialist tool. The FDE agent selects the right adjacent skill when the deliverable requires it.
-
-Default rule: stitch for output quality, but do not create dependency bloat. If the adjacent tool is unavailable, produce the same artifact in Markdown and Mermaid.
+If a specialist capability is unavailable, the skill falls back to Markdown and Mermaid artifacts instead of forcing installation.
 
 ## Modules
 
