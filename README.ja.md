@@ -1,45 +1,92 @@
 # AI First FDE Skill
 
-東アジアの企業文化を持つ組織における AI 導入、技術設計、現場展開、トラブルシューティング、利用定着を支援する公開 Agent-runtime-neutral Skill Suite です。
+AI First FDE Skill は、企業 AI の現場導入を支援する Markdown-only / no-build の Skill Suite です。
 
-これは一般的な AI コンサルティング用プロンプトではありません。AI エージェントを、現場で動ける AI First Forward Deployed Engineer（FDE）として運用するためのスキル群です。
+Agent を Forward Deployed Engineer として動かし、実際の業務フロー、データ、権限、関係者、抵抗、PoC、Pilot、Rollout、運用引き継ぎまでを扱います。
 
-## 目的
+## Quick Start
 
-企業 AI 導入の失敗要因は、多くの場合モデル性能だけではありません。実際には、業務フロー、データ品質、権限、責任分界、ガバナンス、現場利用者の心理的抵抗が重要です。
+```bash
+git clone https://github.com/jacksoncoin0202-ops/ai-first-fde-skill.git
+cd ai-first-fde-skill
+```
 
-特に東アジア企業では、以下の要素を考慮する必要があります。
+Agent に次のように指示します。
 
-- 階層的な意思決定
-- 面子と責任回避
-- 公式会議前の非公式合意形成
-- 失敗を避ける文化
-- 年功序列と役割保護
-- 表向きの賛成と実際の不使用
-- 部門間の情報共有抵抗
+```text
+まず skills/ai-first-fde/SKILL.md を読んでください。
+調査、診断、アーキテクチャ、デプロイ、トラブルシューティング、採用観察が必要な場合は、対応する skills/ai-first-fde-* モジュールと skills/ai-first-fde/references/ を読んでください。
+```
+
+## 依存関係なし / ビルド不要
+
+この Skill を使うために Python、npm、pip、Docker、compiler、binary installer は不要です。
+
+Skill 本体は Markdown です。Python validator はメンテナンスと CI 用の任意ツールであり、利用者には不要です。
+
+## 何をするか
+
+- ツール選定の前に、本当の業務課題を特定する。
+- 業務フロー、owner、データ、権限、リスク、KPI を整理する。
+- sponsor、阻害要因、日常利用者、senior reviewer、informal veto holder を可視化する。
+- PoC、Pilot、Rollout、Rollback、Operations gate を設計する。
+- 東アジア企業に多い階層、面子、合意形成、リスク回避、表向きの同意を扱う。
+- レビュー可能、運用可能、公開時に安全な成果物を作る。
 
 ## モジュール
 
-- `ai-first-fde`: メイン統合 Skill
-- `ai-first-fde-research`: 調査と情報源確認
-- `ai-first-fde-diagnostic`: 顧客ヒアリングと深掘り診断
-- `ai-first-fde-architecture`: AI 技術アーキテクチャ設計
-- `ai-first-fde-deployment`: PoC、Pilot、本番展開、運用
-- `ai-first-fde-troubleshooting`: 現場トラブル対応
-- `ai-first-fde-adoption-observer`: 利用者反応と導入抵抗の観察
+- `ai-first-fde`：メイン orchestration skill
+- `ai-first-fde-research`：公開情報と根拠の確認
+- `ai-first-fde-diagnostic`：顧客深掘り診断
+- `ai-first-fde-architecture`：AI ソリューションアーキテクチャ
+- `ai-first-fde-deployment`：PoC、Pilot、Rollout、Operations
+- `ai-first-fde-troubleshooting`：現場トラブル対応
+- `ai-first-fde-adoption-observer`：利用者抵抗と採用状況の観察
 
-## Agent / CLI での利用
+## 実行フロー
 
-この Skill Suite は Hermes だけに限定されません。Claude Code、OpenAI Codex CLI、Cursor、OpenRouter-backed agents、OpenCLI workflows、OpenCode、Gemini CLI、GitHub Copilot CLI、Windsurf、Cline、Aider、Continue、Devin CLI など、Markdown instruction や project rules を読める agent runtime で利用できます。
+1. 対象 workflow と業務課題を定義する。
+2. 実際の文書、ticket、表、email、log で現行プロセスを再構成する。
+3. データ、権限、owner、承認ポイント、リスクを整理する。
+4. sponsor、阻害要因、daily users、reviewers、legal / security / compliance / IT を整理する。
+5. 狭く、安全で、測定可能な pilot を選ぶ。
+6. KPI、人間の監視モード、fallback、stop / continue / expand 条件を決める。
+7. 週次 sponsor review と user feedback loop を回す。
+8. 実利用、KPI 改善、operations owner が確認できてから scale する。
 
-- Agent / CLI download guide: [`docs/agent-runtime-download-guide.zh-Hant.md`](docs/agent-runtime-download-guide.zh-Hant.md)
+## 標準成果物
 
-この Skill の利用に Python、npm、pip、Docker、compiler、binary installer は不要です。Skill 本体は Markdown-only です。Python validator はメンテナンスと CI 用の任意ツールであり、利用者には不要です。
+- Engagement Brief
+- Problem Map
+- Stakeholder Map
+- Data / Permission Model
+- Technical Solution Architecture
+- PoC Plan
+- Pilot Plan
+- Deployment Runbook
+- Adoption Risk Register
+- Troubleshooting Report
+- Validation Checklist
+- Operations Handbook
+- Executive Summary
+- Public-safe Case Rewrite
 
-## 安全方針
+## 任意の Agent Runtime で利用可能
 
-このリポジトリは公開されています。実在顧客名、内部システム URL、契約情報、認証情報、社員名、未公開の導入詳細を含めないでください。
+Markdown または project rules を読める agent であれば利用できます。Claude Code、OpenAI Codex CLI、Cursor、Hermes、OpenCode、Gemini CLI、Cline、Aider、Continue、Devin CLI、OpenRouter-backed agents などで利用できます。
 
-## 研究メモ
+Agent / CLI ダウンロードガイド：[docs/agent-runtime-download-guide.zh-Hant.md](docs/agent-runtime-download-guide.zh-Hant.md)
 
-本 Skill Suite は、企業 AI 導入実務、東アジア組織文化、責任ある AI ガバナンス、および Stanford HAI / AI Index などの公開研究を参考にしています。Stanford による承認や提携を意味するものではありません。
+## 公開安全方針
+
+このリポジトリは公開されています。顧客名、内部アーキテクチャ、契約、credential、内部 URL、社員名、識別可能な導入詳細を含めないでください。
+
+## 研究基盤
+
+本 Skill は、企業 AI 導入実務、東アジア組織文化、責任ある AI ガバナンス、Stanford Digital Economy Lab 2026 Enterprise AI Playbook、Stanford HAI / AI Index、NIST、OECD、Microsoft WorkLab、McKinsey、日本 METI / MIC の公開資料を参考にしています。
+
+本 repo は、引用された組織による承認や提携を意味しません。
+
+## License
+
+MIT License.
