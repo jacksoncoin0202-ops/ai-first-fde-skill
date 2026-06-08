@@ -1,6 +1,6 @@
 # AI FIRST FDT SKILL
 
-這是 **Jackz.ai** 創造的公開 Hermes / Claude-style Skill Suite，專門針對**東亞文化脈絡下的公司組織**進行 AI 導入、技術落地與現場排障。
+這是 **Jackz.ai** 創造的公開 Agent-runtime-neutral Skill Suite，專門針對**東亞文化脈絡下的公司組織**進行 AI 導入、技術落地與現場排障。
 
 它不是一般 AI 顧問提示詞，也不是單純寫方案的模板。它的定位是：
 
@@ -65,6 +65,25 @@
 - `ai-first-fdt-adoption-observer`：使用者反應與東亞企業導入阻力觀察。
 
 ## 基本使用方式
+
+這套 Skill 不應只剩下 Hermes。它可以配合 Claude Code、OpenAI Codex CLI、Cursor、OpenRouter-backed agents、OpenCLI workflows、OpenCode、Gemini CLI、GitHub Copilot CLI、Windsurf、Cline、Aider、Continue、Devin CLI，以及其他能讀 Markdown / project rules / skills / MCP 的 Agent runtime。
+
+- Agent / CLI 下載與使用指南：[`docs/agent-runtime-download-guide.zh-Hant.md`](docs/agent-runtime-download-guide.zh-Hant.md)
+
+大部分 agent 的通用用法：
+
+```bash
+git clone https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill.git
+cd ai-first-fdt-skill
+```
+
+然後對 Agent 說：
+
+```text
+請先讀 skills/ai-first-fdt/SKILL.md。
+如果任務需要研究、診斷、架構、部署、排障或 adoption observation，
+請再讀對應的 skills/ai-first-fdt-* 模組。
+```
 
 對 Agent 說：
 

@@ -21,6 +21,25 @@ This public repository uses only public-safe research notes.
 - Japan METI / MIC — AI Business Guidelines Version 1.0 release: https://www.meti.go.jp/press/2024/04/20240419004/20240419004.html
 - Japan METI / MIC — AI Business Guidelines Version 1.0 PDF: https://www.meti.go.jp/press/2024/04/20240419004/20240419004-1.pdf
 
+### Agent runtime and download sources
+
+- Claude Code first-day install guide: https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code
+- OpenAI Codex CLI GitHub README: https://github.com/openai/codex
+- Cursor download page: https://cursor.com/download
+- OpenRouter quickstart: https://openrouter.ai/docs/quickstart
+- OpenCLI, jackwener/opencli install guide: https://opencli.info/docs/guide/installation.html
+- OpenCLI work router: https://opencli.co/
+- OpenCLI local engine: https://www.opencli.run/
+- OpenCode download page: https://opencode.ai/download
+- Gemini CLI documentation: https://google-gemini.github.io/gemini-cli/
+- GitHub Copilot CLI install guide: https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli
+- Windsurf download page: https://windsurf.com/download
+- Cline install guide: https://docs.cline.bot/getting-started/installing-cline
+- Aider homepage and install guide: https://aider.chat/
+- Continue install guide: https://docs.continue.dev/getting-started/install
+- Devin CLI quickstart: https://cli.devin.ai/
+- Roo Code docs and shutdown notice: https://docs.roocode.com/
+
 ## Repository research report
 
 - Full public research grounding report: [`docs/research/ai-first-fdt-research-report.en.md`](research/ai-first-fdt-research-report.en.md)

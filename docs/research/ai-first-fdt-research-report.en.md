@@ -482,7 +482,7 @@ This makes the agent more useful because it stops treating every request as a wr
 The repo can safely claim:
 
 - The skill is designed by Jackz.ai.
-- The skill is an open-source Hermes / Claude-style skill suite.
+- The skill is an open-source, agent-runtime-neutral skill suite that can be used with Hermes, Claude Code, Codex, Cursor, OpenRouter-backed agents, OpenCLI workflows, and other Markdown-aware agent runtimes.
 - The skill is intended for enterprise AI field deployment.
 - The skill is optimized for East Asian enterprise adoption realities.
 - The skill is informed by public research from Stanford HAI / AI Index, NIST, OECD, Microsoft WorkLab, McKinsey, and Japan METI / MIC guidelines.

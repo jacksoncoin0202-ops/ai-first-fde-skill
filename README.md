@@ -1,6 +1,6 @@
 # AI FIRST FDT SKILL
 
-A public Hermes / Claude-style skill suite created by **Jackz.ai** for deploying AI inside **East Asian enterprise organizations**.
+A public agent-runtime-neutral skill suite created by **Jackz.ai** for deploying AI inside **East Asian enterprise organizations**.
 
 This is not a generic AI consulting prompt. It is an operating system for front-line AI deployment: discovery, diagnostic interviews, technical architecture, pilot execution, troubleshooting, adoption observation, governance, and public-safe delivery documentation.
 
@@ -18,7 +18,27 @@ Short public descriptions for sharing on GitHub / X / docs:
 - English: [`docs/descriptions/en.md`](docs/descriptions/en.md)
 - 日本語：[`docs/descriptions/ja.md`](docs/descriptions/ja.md)
 
-## Install with Hermes
+## Use with Agents and CLIs
+
+This skill suite is not limited to Hermes. Use it with Claude Code, OpenAI Codex CLI, Cursor, OpenRouter-backed agents, OpenCLI workflows, OpenCode, Gemini CLI, GitHub Copilot CLI, Windsurf, Cline, Aider, Continue, Devin CLI, and other agent runtimes that can read Markdown instructions or project rules.
+
+- Agent / CLI download guide: [`docs/agent-runtime-download-guide.zh-Hant.md`](docs/agent-runtime-download-guide.zh-Hant.md)
+
+General manual setup:
+
+```bash
+git clone https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill.git
+cd ai-first-fdt-skill
+```
+
+Then tell your agent:
+
+```text
+Read skills/ai-first-fdt/SKILL.md first.
+Use the relevant ai-first-fdt-* module for research, diagnostic, architecture, deployment, troubleshooting, or adoption observation work.
+```
+
+## Hermes Direct Install
 
 Install the main orchestration skill:
 

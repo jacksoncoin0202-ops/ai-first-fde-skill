@@ -1,6 +1,6 @@
 # AI FIRST FDT SKILL
 
-Created by **Jackz.ai**, this public Hermes / Claude-style skill suite is designed for AI deployment inside **East Asian enterprise organizations**.
+Created by **Jackz.ai**, this public agent-runtime-neutral skill suite is designed for AI deployment inside **East Asian enterprise organizations**.
 
 It turns an AI agent into a front-line AI FIRST Field Deployment Technician: someone who investigates the real workflow, interviews the client deeply, designs technical architecture, executes PoC and pilot plans, troubleshoots incidents, observes user resistance, and produces delivery-ready documents.
 
@@ -51,6 +51,26 @@ This skill suite is built for that reality.
 - Public-safe Case Rewrite
 
 ## Installation
+
+This suite is not only for Hermes. You can use it with Claude Code, OpenAI Codex CLI, Cursor, OpenRouter-backed agents, OpenCLI workflows, OpenCode, Gemini CLI, GitHub Copilot CLI, Windsurf, Cline, Aider, Continue, Devin CLI, and other agents that can read Markdown project instructions.
+
+- Agent / CLI download guide: [`docs/agent-runtime-download-guide.zh-Hant.md`](docs/agent-runtime-download-guide.zh-Hant.md)
+
+Manual setup for most agents:
+
+```bash
+git clone https://github.com/jacksoncoin0202-ops/ai-first-fdt-skill.git
+cd ai-first-fdt-skill
+```
+
+Then tell the agent:
+
+```text
+Read skills/ai-first-fdt/SKILL.md first.
+Use the relevant ai-first-fdt-* module for research, diagnostic, architecture, deployment, troubleshooting, or adoption observation work.
+```
+
+Hermes direct install:
 
 ```bash
 hermes skills install skills-sh/jacksoncoin0202-ops/ai-first-fdt-skill/skills/ai-first-fdt

@@ -1,6 +1,6 @@
 # AI FIRST FDT SKILL
 
-**Jackz.ai** が作成した公開 Hermes / Claude-style Skill Suite です。東アジアの企業文化を持つ組織における AI 導入、技術設計、現場展開、トラブルシューティング、利用定着を支援するために設計されています。
+**Jackz.ai** が作成した公開 Agent-runtime-neutral Skill Suite です。東アジアの企業文化を持つ組織における AI 導入、技術設計、現場展開、トラブルシューティング、利用定着を支援するために設計されています。
 
 これは一般的な AI コンサルティング用プロンプトではありません。AI エージェントを、現場で動ける AI FIRST Field Deployment Technician として運用するためのスキル群です。
 
@@ -27,6 +27,12 @@
 - `ai-first-fdt-deployment`: PoC、Pilot、本番展開、運用
 - `ai-first-fdt-troubleshooting`: 現場トラブル対応
 - `ai-first-fdt-adoption-observer`: 利用者反応と導入抵抗の観察
+
+## Agent / CLI での利用
+
+この Skill Suite は Hermes だけに限定されません。Claude Code、OpenAI Codex CLI、Cursor、OpenRouter-backed agents、OpenCLI workflows、OpenCode、Gemini CLI、GitHub Copilot CLI、Windsurf、Cline、Aider、Continue、Devin CLI など、Markdown instruction や project rules を読める agent runtime で利用できます。
+
+- Agent / CLI download guide: [`docs/agent-runtime-download-guide.zh-Hant.md`](docs/agent-runtime-download-guide.zh-Hant.md)
 
 ## 安全方針
 

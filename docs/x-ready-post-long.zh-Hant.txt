@@ -27,7 +27,7 @@ AI 導入最常見的失敗，不是模型不夠強。
 
 它不是普通 prompt。
 
-它是把一個 AI 前線部署工程師的工作方式，封裝成 Hermes / Claude-style Skill：
+它是把一個 AI 前線部署工程師的工作方式，封裝成 agent-runtime-neutral Skill：
 
 先做 research grounding，確認產業、流程、限制與公開資料；
 再做 deep diagnostic interview，把業務、資料、權限、風險、KPI 問清楚；
